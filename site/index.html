@@ -126,9 +126,9 @@ body {
 			<div id="status-notice"></div>
 		</div>
 
-		<link rel="stylesheet" href="mobile.css"><script src="mobile.js"></script><script src="index.js"></script>
+		<link rel="stylesheet" href="mobile.css"><script src="mobile.js"></script><link rel="stylesheet" href="analytics.css"><script src="analytics-config.js"></script><script src="analytics.js"></script><script src="index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":64598396,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":64601516,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
 const GODOT_THREADS_ENABLED = false;
 const params = new URLSearchParams(location.search);
 if(params.has('qa')) GODOT_CONFIG.args.push('--','--web-qa');
@@ -233,7 +233,7 @@ const engine = new Engine(GODOT_CONFIG);
 				}
 			},
 		}).then(() => {
-			setStatusMode('hidden');
+			window.DefenseAnalytics?.launch(); setStatusMode('hidden');
 		}, displayFailureNotice);
 	}
 }());

@@ -1,6 +1,18 @@
 {
   "units": "bytes",
   "files": {
+    "analytics-config.js": {
+      "bytes": 272,
+      "sha256": "e25b662fea5d8061744896a71791584bc3d80b762581b23cb84de80a8f9ffc56"
+    },
+    "analytics.css": {
+      "bytes": 1189,
+      "sha256": "3b095e932c84fd7abe2c287ed27422e78fe9ede2d591b9cabc728c2d66955fc5"
+    },
+    "analytics.js": {
+      "bytes": 8123,
+      "sha256": "d9df9b04db80d111ee562b064a267ecae6201274c586057fa5c82ec53fdfc9aa"
+    },
     "cover.png": {
       "bytes": 2752153,
       "sha256": "47c811bffb78a4f5739f345984ebe59c023c0d7a858c084a77fab3b6c418f5cb"
@@ -18,8 +30,8 @@
       "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
     },
     "index.html": {
-      "bytes": 7911,
-      "sha256": "13e40811eb0434b9aa2d6c09790a496bddfe7389d73648942966c6ee6bbdf3a6"
+      "bytes": 8069,
+      "sha256": "8c73d685f5ec47fd1270fc9d5d1c28dfbe215a979b5e15453a3afed4e2b8a1b0"
     },
     "index.icon.png": {
       "bytes": 74768,
@@ -30,8 +42,8 @@
       "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
     },
     "index.pck": {
-      "bytes": 64598396,
-      "sha256": "792049840d730ed25e01040bc27968b97d5792a36c3cd61ef45b41ddc22b1041"
+      "bytes": 64601516,
+      "sha256": "744b2506299020e813ec61b0a60964e2bc155feef7025f95823f47b82002e873"
     },
     "index.png": {
       "bytes": 21443,
@@ -46,8 +58,8 @@
       "sha256": "c314b5dd19e23019fedd190428900fe1fd207c3cd9db0a50f9550974f3e22dd1"
     },
     "mobile.js": {
-      "bytes": 6654,
-      "sha256": "91a0f57639bc64657b2f5da0630fbaef14205cdb5b6f0c8852eccf7862f31aff"
+      "bytes": 6750,
+      "sha256": "23e23752a8e67958ba8719c3ef267f8205ee0fb9c13492ebfad745963f019b36"
     },
     "packs/egypt-border.pck": {
       "bytes": 6462100,

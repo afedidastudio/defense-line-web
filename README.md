@@ -32,3 +32,9 @@ The detached Web copy passed campaign and campaign UI checks after each conversi
 Phones and tablets get a 44px+ touch action panel, ability dock, target cancellation, map zoom and drag mode, safe-area spacing, and portrait/landscape layouts. Landscape is recommended for a larger map. Fullscreen is optional and falls back gracefully. Combat pauses when a touch-device tab is hidden and requires explicit resume. Core gameplay and the desktop UI are retained.
 
 Validated using Chrome touch emulation at 390×844, 667×375, 844×390, and 1024×768, including real touch build/upgrade/sell, hero targeting, air strikes/cancellation, wave start, zoom/pan, and pause/resume. Physical Android/iOS devices and Safari have not been tested.
+
+## Optional Analytics
+
+GA4 uses the owner-supplied Web stream G-23KW675G31. Google is loaded only after explicit consent; declining does not affect the game. Use Privacy to change the choice. See [ANALYTICS.md](ANALYTICS.md) for events, privacy controls, verification and dashboard instructions.
+
+Enemy vehicle graphics now use smaller family footprints and a constant scale across all eight headings. Combat statistics are unchanged.
