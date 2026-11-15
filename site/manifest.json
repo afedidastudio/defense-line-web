@@ -30,8 +30,8 @@
       "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
     },
     "index.html": {
-      "bytes": 8069,
-      "sha256": "8c73d685f5ec47fd1270fc9d5d1c28dfbe215a979b5e15453a3afed4e2b8a1b0"
+      "bytes": 9007,
+      "sha256": "94ecd5033dd73a2a44cadbe464416e9b622ad96692eea2db7163130be438ca49"
     },
     "index.icon.png": {
       "bytes": 74768,
@@ -42,8 +42,8 @@
       "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
     },
     "index.pck": {
-      "bytes": 64601516,
-      "sha256": "744b2506299020e813ec61b0a60964e2bc155feef7025f95823f47b82002e873"
+      "bytes": 64612416,
+      "sha256": "8a7eb233b801d330cb6bc5f9864e9f9981fc674f3159dbabca2f619ff41ad6cc"
     },
     "index.png": {
       "bytes": 21443,
@@ -86,8 +86,8 @@
       "sha256": "8b5218d58c4d3e504280c82062537c0e95ea63e1840b21fe2be090e6960a43a9"
     },
     "packs/south-lebanon.pck": {
-      "bytes": 6154092,
-      "sha256": "f98a19d3176dd1c2bf951f088490ba6307881f4fd51ab975ca8bfab8f5d45f07"
+      "bytes": 6487056,
+      "sha256": "9150ced1a1753e2faeb5a45d78edab8b501c85f139a9b305736f2a512f117ff1"
     },
     "packs/south-syria.pck": {
       "bytes": 5910856,
@@ -98,8 +98,8 @@
       "sha256": "c3996f7abafb2e00aefa17a60cc165c9bff798d4877f5095586c298a96727eb1"
     },
     "packs/west-bank.pck": {
-      "bytes": 6378760,
-      "sha256": "026dd4f93f944ac1ed28ec4a49cf5674e5b9a876fa1880683584f64bef881242"
+      "bytes": 7060492,
+      "sha256": "61c2602c297f59c6696c3ff9990e3c11bca1b4bf1c5bb902b79224ca985e1b59"
     },
     "packs/yemen.pck": {
       "bytes": 3762460,

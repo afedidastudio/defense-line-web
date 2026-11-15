@@ -38,3 +38,9 @@ Validated using Chrome touch emulation at 390×844, 667×375, 844×390, and 1024
 GA4 uses the owner-supplied Web stream G-23KW675G31. Google is loaded only after explicit consent; declining does not affect the game. Use Privacy to change the choice. See [ANALYTICS.md](ANALYTICS.md) for events, privacy controls, verification and dashboard instructions.
 
 Enemy vehicle graphics now use smaller family footprints and a constant scale across all eight headings. Combat statistics are unchanged.
+
+## Regional enemy vehicles
+
+West Bank uses a civilian pickup and an improvised armored van. South Lebanon uses an armed pickup and an armored off-road SUV. All four include a fictional enemy gunner and eight headings. Visual family sizes, ground anchors, health bars and codex names are region-specific; HP, damage, armor and wave rosters retain their existing values. Other sectors retain the resized generic vehicles.
+
+Sector pack hashes are embedded in the generated HTML and version persistent asset-cache filenames. Old sector cache files are removed after a current pack is mounted, preventing older clients from retaining a pack that lacks newly added art. No saved player progress is deleted.
