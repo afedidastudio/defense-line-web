@@ -1,0 +1,89 @@
+{
+  "units": "bytes",
+  "files": {
+    "cover.png": {
+      "bytes": 2752153,
+      "sha256": "47c811bffb78a4f5739f345984ebe59c023c0d7a858c084a77fab3b6c418f5cb"
+    },
+    "index.apple-touch-icon.png": {
+      "bytes": 40650,
+      "sha256": "b994def193162f44aa4b02b522fe1fee196d4f6c6c717cd265027bd39ba07415"
+    },
+    "index.audio.position.worklet.js": {
+      "bytes": 2973,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+    },
+    "index.audio.worklet.js": {
+      "bytes": 7298,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+    },
+    "index.html": {
+      "bytes": 7765,
+      "sha256": "12d91c4137348009ce33bf09c05f152fd73ebf294bc3999600981b2f85d850c3"
+    },
+    "index.icon.png": {
+      "bytes": 74768,
+      "sha256": "9ba2cb56bc8ba92f96d803777dcd434c5884c234ba4a2dad4b24879e7513382b"
+    },
+    "index.js": {
+      "bytes": 279815,
+      "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
+    },
+    "index.pck": {
+      "bytes": 64592720,
+      "sha256": "b1b27cbb3aa6ba0e147e2aec30da9c6580ed5dd2a24fb8d791f5eddd87a39e65"
+    },
+    "index.png": {
+      "bytes": 21443,
+      "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+    },
+    "index.wasm": {
+      "bytes": 39514754,
+      "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
+    },
+    "packs/egypt-border.pck": {
+      "bytes": 6462100,
+      "sha256": "563f74a2c425b6ee9a21dd20b0fc13c0eb4b6cc1bedef41a8b3018992904f60b"
+    },
+    "packs/gaza.pck": {
+      "bytes": 6361312,
+      "sha256": "a7495105885387fafee8697f94ce77c411aeaef2e74507153fa9bc86b4dd7f9f"
+    },
+    "packs/iran-caspian.pck": {
+      "bytes": 6396588,
+      "sha256": "a016e07b616e125cac2c84ba18101f355cd69cb97982919e30c69d8618eb4786"
+    },
+    "packs/iran-desert.pck": {
+      "bytes": 6036608,
+      "sha256": "9bdaaef6660d1e4c848f0795d57d485c9e1ef8eeed43cf87c9fa0d96d6860252"
+    },
+    "packs/iran-zagros.pck": {
+      "bytes": 5996892,
+      "sha256": "363de40a2cf7abce35c6993ab2a0b352f50dab9d3d20c38d43cd14f41a82ca35"
+    },
+    "packs/jordan-border.pck": {
+      "bytes": 6257604,
+      "sha256": "8b5218d58c4d3e504280c82062537c0e95ea63e1840b21fe2be090e6960a43a9"
+    },
+    "packs/south-lebanon.pck": {
+      "bytes": 6154092,
+      "sha256": "f98a19d3176dd1c2bf951f088490ba6307881f4fd51ab975ca8bfab8f5d45f07"
+    },
+    "packs/south-syria.pck": {
+      "bytes": 5910856,
+      "sha256": "308e818feabb111d511f214eccc802ac8c8f146bd877265f46a0df89c60244d8"
+    },
+    "packs/syrian-hermon.pck": {
+      "bytes": 6784568,
+      "sha256": "c3996f7abafb2e00aefa17a60cc165c9bff798d4877f5095586c298a96727eb1"
+    },
+    "packs/west-bank.pck": {
+      "bytes": 6378760,
+      "sha256": "026dd4f93f944ac1ed28ec4a49cf5674e5b9a876fa1880683584f64bef881242"
+    },
+    "packs/yemen.pck": {
+      "bytes": 3762460,
+      "sha256": "bba513ef0c0bce2898390218be566035d4cd17c848846c88a1e6092980021e6b"
+    }
+  }
+}

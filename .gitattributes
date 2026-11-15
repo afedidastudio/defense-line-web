@@ -1,0 +1,4 @@
+* text=auto
+*.pck binary
+*.wasm binary
+*.png binary
