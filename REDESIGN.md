@@ -42,4 +42,8 @@ Two fresh normal-profile runs per version, Chrome 157 on an i7-13620H / Intel UH
 
 The severe throttled stress scene remains slow. Fewer draw calls did not produce a demonstrated frame-rate improvement, and startup increased in these two runs. These are noisy diagnostic measurements, not proof of physical-phone performance. No claim of mobile performance completion is made. Physical Android/iOS devices, Safari, human balance testing and a broader performance investigation remain open. The visual release does not introduce speculative performance changes.
 
-Downloads increased because stage compositions are distinct: the base pack is approximately 65.7 MB, and regional packs approximately 8–10 MB. Gallery images are separate, lazy-loaded and not part of the normal game startup. Exact exported byte sizes and hashes are in `site/manifest.json`.
+Downloads increased because stage compositions are distinct: the base pack is approximately 65.7 MB, and campaign regional packs approximately 8–10 MB (Yemen bonus 4 MB). Gallery images are separate, lazy-loaded and not part of the normal game startup. Exact exported byte sizes and hashes are in `site/manifest.json`.
+
+## Public deployment verification
+
+GitHub Pages deployment of 9ec81e1 succeeded. All 255 published resources matched local SHA-256 hashes and byte sizes, including Wasm MIME. Public-site Chrome checks passed all 101 maps, 25 event transitions, bilingual catalog/gallery and twelve touch/consent checks with no browser errors. The evidence-only follow-up commit does not change site resources.
