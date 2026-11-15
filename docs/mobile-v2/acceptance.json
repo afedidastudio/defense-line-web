@@ -13,7 +13,8 @@
     "Hero ability, air strike and reinforcements activated by touch",
     "Portrait full rotate screen; canvas hidden",
     "Manual drawer closes after selection; English native guide; privacy pauses and restores battle",
-    "Declined analytics sends no Google requests"
+    "Declined analytics sends no Google requests",
+    "Fresh portrait privacy appears alone before engine download"
   ],
   "errors": [],
   "canvas": {
@@ -26,7 +27,7 @@
     "actions": [
       {
         "disabled": false,
-        "id": "73752643150",
+        "id": "73601648206",
         "label": "Pause",
         "rect": [
           1183,
@@ -38,7 +39,7 @@
       },
       {
         "disabled": false,
-        "id": "74054633040",
+        "id": "73903638096",
         "label": "Options",
         "rect": [
           1086,
@@ -50,7 +51,7 @@
       },
       {
         "disabled": false,
-        "id": "77057754790",
+        "id": "76906759846",
         "label": "Move Eitan",
         "rect": [
           12,
@@ -62,7 +63,7 @@
       },
       {
         "disabled": true,
-        "id": "77678511807",
+        "id": "77527516863",
         "label": "Rally",
         "rect": [
           109,
@@ -74,7 +75,7 @@
       },
       {
         "disabled": true,
-        "id": "78920025807",
+        "id": "78769030863",
         "label": "Air strike",
         "rect": [
           206,
@@ -86,7 +87,7 @@
       },
       {
         "disabled": true,
-        "id": "79507228380",
+        "id": "79356233436",
         "label": "תגבורת",
         "rect": [
           303,
@@ -98,7 +99,7 @@
       },
       {
         "disabled": true,
-        "id": "80346089193",
+        "id": "80195094249",
         "label": "Next wave",
         "rect": [
           1183,
@@ -110,7 +111,7 @@
       },
       {
         "disabled": false,
-        "id": "80648079088",
+        "id": "80497084144",
         "label": "Field guide",
         "rect": [
           989,
@@ -123,13 +124,12 @@
     ],
     "context": "",
     "game": true,
-    "gold": 416,
+    "gold": 421,
     "info": [
       "20",
-      "416",
+      "421",
       "1 / 6",
-      "LV 1",
-      "בנו בנקודות המסומנות · H גיבור · Q יכולת · E תקיפה · R תגבורת"
+      "LV 1"
     ],
     "language": "en",
     "lives": 20,
@@ -142,42 +142,42 @@
     "quick": [
       {
         "disabled": false,
-        "id": "77057754790",
+        "id": "76906759846",
         "key": "hero",
         "label": "Eitan · Level 1\nXP 0 / 80\nXP from nearby combat, waves and victories",
         "remaining": 0
       },
       {
         "disabled": true,
-        "id": "77678511807",
+        "id": "77527516863",
         "key": "rally",
         "label": "Rally [Q]\nBoosts nearby towers' damage and fire rate for 5 seconds.\nCooldown: 20.0s",
-        "remaining": 10
+        "remaining": 15
       },
       {
         "disabled": true,
-        "id": "78920025807",
+        "id": "78769030863",
         "key": "air",
         "label": "Air strike [E]\nChoose an area for three impacts. Cooldown: 25.0 seconds.",
-        "remaining": 17
+        "remaining": 21
       },
       {
         "disabled": true,
-        "id": "79507228380",
+        "id": "79356233436",
         "key": "reinforce",
         "label": "Reinforcements [R]\nTwo soldiers block the route for 12 seconds.",
-        "remaining": 19
+        "remaining": 22
       },
       {
         "disabled": true,
-        "id": "80346089193",
+        "id": "80195094249",
         "key": "wave",
         "label": "Early wave: +0 gold · restore 0.0s",
         "remaining": 0
       },
       {
         "disabled": false,
-        "id": "73752643150",
+        "id": "73601648206",
         "key": "pause",
         "label": "Pause",
         "remaining": 0

@@ -12,27 +12,27 @@
   "scenario": "Controlled 65 initial enemies + boss, 8 tier3 towers; zero enemy movement and high HP to hold load; animations/combat active. QA only.",
   "runs": [
     {
-      "timeToMenuMs": 32442,
+      "timeToMenuMs": 17833,
       "sample": {
-        "seconds": 20.134100000002974,
-        "meanFps": 2.6323500926285344,
-        "p50FrameMs": 366.40000000000146,
-        "p95FrameMs": 717.1999999999971,
-        "maxFrameMs": 733.3999999999942,
+        "seconds": 20.22599999999702,
+        "meanFps": 3.0159201028383764,
+        "p50FrameMs": 316.6000000000058,
+        "p95FrameMs": 466.70000000000437,
+        "maxFrameMs": 533.2999999999956,
         "minEnemies": 66,
         "maxEnemies": 66
       },
       "engine": {
-        "drawCalls": 529,
-        "fps": 2,
-        "nodeCount": 227,
-        "textureBytes": 398231207
+        "drawCalls": 563,
+        "fps": 3,
+        "nodeCount": 247,
+        "textureBytes": 398428407
       },
-      "jsHeapMB": 14.666755676269531,
+      "jsHeapMB": 14.066314697265625,
       "memory": {
-        "browserPrivateMB": 1167.78125,
-        "browserWorkingSetMB": 1447.515625,
-        "rendererWorkingSetMB": 563.35546875
+        "browserPrivateMB": 1153.2890625,
+        "browserWorkingSetMB": 1422.52734375,
+        "rendererWorkingSetMB": 570.88671875
       },
       "canvas": {
         "x": 72.65625,
@@ -42,27 +42,27 @@
       }
     },
     {
-      "timeToMenuMs": 19402,
+      "timeToMenuMs": 24594,
       "sample": {
-        "seconds": 20.291300000000003,
-        "meanFps": 3.0554966906999548,
-        "p50FrameMs": 316.59999999999854,
-        "p95FrameMs": 534,
-        "maxFrameMs": 633.4000000000015,
+        "seconds": 20.06710000000149,
+        "meanFps": 1.5946499494195785,
+        "p50FrameMs": 450,
+        "p95FrameMs": 1683.4000000000015,
+        "maxFrameMs": 2216.7000000000044,
         "minEnemies": 66,
         "maxEnemies": 66
       },
       "engine": {
-        "drawCalls": 554,
-        "fps": 2,
-        "nodeCount": 242,
-        "textureBytes": 398625607
+        "drawCalls": 528,
+        "fps": 1,
+        "nodeCount": 228,
+        "textureBytes": 397639607
       },
-      "jsHeapMB": 13.77981948852539,
+      "jsHeapMB": 16.70101547241211,
       "memory": {
-        "browserPrivateMB": 1179.91796875,
-        "browserWorkingSetMB": 1473.234375,
-        "rendererWorkingSetMB": 577.90625
+        "browserPrivateMB": 1163.25,
+        "browserWorkingSetMB": 1448.3515625,
+        "rendererWorkingSetMB": 558.7265625
       },
       "canvas": {
         "x": 72.65625,

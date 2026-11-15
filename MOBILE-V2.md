@@ -25,13 +25,13 @@ Two fresh browser contexts per build, localhost, 4× CPU slowdown, 5-second warm
 
 | Metric | Before | After |
 |---|---|---|
-| Time to title (s) | 44.8 / 39.7 | 32.4 / 19.4 |
-| Mean FPS, controlled combat | 1.16 / 1.44 | 2.63 / 3.06 |
-| P95 frame duration (ms) | 1150 / 1066 | 717 / 534 |
-| Godot texture memory (MiB) | 364.5 / 364.8 | 379.8 / 380.2 |
-| JavaScript heap (MiB) | 14.5 / 16.6 | 14.7 / 13.8 |
-| Browser private committed memory, own Chrome processes (MiB) | 1179 / 1196 | 1168 / 1180 |
-| Browser working sets, sum of own processes (MiB) | 1480 / 1499 | 1448 / 1473 |
+| Time to title (s) | 44.8 / 39.7 | 17.8 / 24.6 |
+| Mean FPS, controlled combat | 1.16 / 1.44 | 3.02 / 1.59 |
+| P95 frame duration (ms) | 1150 / 1066 | 467 / 1683 |
+| Godot texture memory (MiB) | 364.5 / 364.8 | 380.0 / 379.2 |
+| JavaScript heap (MiB) | 14.5 / 16.6 | 14.1 / 16.7 |
+| Browser private committed memory, own Chrome processes (MiB) | 1179 / 1196 | 1153 / 1163 |
+| Browser working sets, sum of own processes (MiB) | 1480 / 1499 | 1423 / 1448 |
 
 JavaScript heap excludes much of WASM/GPU memory. Process working-set sums can include shared pages; private committed memory is a different measure. Startup values are local fresh-context results without the human privacy-decision wait, not Internet loading times. Two runs do not establish a reliable speedup. This stress workload remains too slow; no mobile-performance pass is claimed. The initial enlarged UI build used about 452 MiB of texture memory before the targeted cache cleanup; its raw report is retained.
 
