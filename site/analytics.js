@@ -12,6 +12,10 @@ let consent=null,loaded=false,loading=false,engineReady=false,launched=false,sta
 const seen=new Set(),pending=[];const debug=config.debug===true||params.get("analytics_debug")==="1";
 function read(){try{const v=JSON.parse(localStorage.getItem(KEY));if(v&&Date.now()-v.at<TTL&&['granted','denied'].includes(v.choice))return v.choice}catch{}return null}
 consent=read();
+let privacyReady;
+window.defensePrivacyReady=(window.defenseMobile?.enabled&&configured&&!optOut&&consent===null)?new Promise(resolve=>privacyReady=resolve):Promise.resolve();
+function closeConsent(){document.getElementById('analytics-consent')?.remove();delete document.body.dataset.privacyOpen;document.dispatchEvent(new CustomEvent('defense-privacy',{detail:false}));if(privacyReady){privacyReady();privacyReady=null}}
+
 function granted(){return configured&&!optOut&&consent==='granted'}
 function clock(){if(activeAt){activeMs+=Math.max(0,performance.now()-activeAt);activeAt=0}}
 function setPlaying(value){clock();playing=!!value;if(playing&&granted()&&!document.hidden)activeAt=performance.now()}
@@ -35,12 +39,12 @@ function load(){if(!granted()||loaded||loading)return;loading=true;window['ga-di
 function clearCookies(){const path=new URL('.',location.href).pathname;for(const part of document.cookie.split(';')){const name=part.split('=')[0].trim();if(!name.startsWith('defense_ga'))continue;for(const p of [path,'/'])for(const domain of ['',`; Domain=${location.hostname}`,`; Domain=.${location.hostname}`])document.cookie=`${name}=; Max-Age=0; Path=${p}${domain}; SameSite=Lax; Secure`}}
 function choose(choice){consent=choice;try{localStorage.setItem(KEY,JSON.stringify({choice,at:Date.now()}))}catch{}
  if(choice==='granted'){window['ga-disable-'+id]=false;if(loaded){gtag('consent','update',{analytics_storage:'granted',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});if(engineReady)launch()}else load();}else{window['ga-disable-'+id]=true;clock();playing=false;activeLevel=null;pending.length=0;seen.clear();clearCookies();if(loaded)gtag('consent','update',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'})}
- document.getElementById('analytics-consent')?.remove();
+ closeConsent();
 }
 function openConsent(){document.getElementById('analytics-consent')?.remove();if(excluded)return;const box=document.createElement('section');box.id='analytics-consent';box.setAttribute('role','dialog');box.setAttribute('aria-labelledby','analytics-title');box.dir='rtl';box.innerHTML='<strong id="analytics-title">פרטיות · Privacy</strong><p></p><div></div>';
  const p=box.querySelector('p'),buttons=box.querySelector('div');p.textContent=!configured?'מדידת שימוש אינה מוגדרת כרגע. Analytics is currently disabled.':optOut?'המעקב כבוי בהתאם להגדרת הפרטיות בדפדפן. Tracking is disabled by your browser privacy setting.':'מדידת שימוש אופציונלית באמצעות Google Analytics: ביקורים, מכשירים והתקדמות במשחק. ללא פרטי התחברות או פרסום מותאם. אפשר לסרב ולשנות בחירה בכל עת. Optional usage analytics: visits, devices and gameplay progress. No login details or personalized ads. You can decline or withdraw at any time.';
  const add=(caption,fn)=>{const b=document.createElement('button');b.type='button';b.textContent=caption;b.onclick=fn;buttons.append(b)};
- if(configured&&!optOut){add('אישור · Accept',()=>choose('granted'));add('ללא מעקב · Decline',()=>choose('denied'))}add('סגירה · Close',()=>box.remove());document.body.append(box);
+ if(configured&&!optOut){add('אישור · Accept',()=>choose('granted'));add('ללא מעקב · Decline',()=>choose('denied'))}add('סגירה · Close',closeConsent);document.body.append(box);if(window.defenseMobile?.enabled){document.body.dataset.privacyOpen='true';document.dispatchEvent(new CustomEvent('defense-privacy',{detail:true}))}
 }
 function event(name,values={},key=''){if(!granted()||!allowed.has(name))return false;if(!loaded){if(loading&&pending.length<32)pending.push([name,values,key]);return false;}if(key&&seen.has(name+':'+key))return false;
  if(name==='level_start'){if(activeLevel===key&&key)return false;activeLevel=key||values.level_name;if(!started){started=true;send('game_start')}levelStarts++;setPlaying(true)}

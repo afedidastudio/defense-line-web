@@ -1,0 +1,75 @@
+{
+  "phase": "after",
+  "base": "http://127.0.0.1:4314/",
+  "chrome": "157.0.8103.78",
+  "cpuThrottle": 4,
+  "viewport": [
+    812,
+    375
+  ],
+  "deviceScaleFactor": 2,
+  "physicalDevice": false,
+  "scenario": "Controlled 65 initial enemies + boss, 8 tier3 towers; zero enemy movement and high HP to hold load; animations/combat active. QA only.",
+  "runs": [
+    {
+      "timeToMenuMs": 32442,
+      "sample": {
+        "seconds": 20.134100000002974,
+        "meanFps": 2.6323500926285344,
+        "p50FrameMs": 366.40000000000146,
+        "p95FrameMs": 717.1999999999971,
+        "maxFrameMs": 733.3999999999942,
+        "minEnemies": 66,
+        "maxEnemies": 66
+      },
+      "engine": {
+        "drawCalls": 529,
+        "fps": 2,
+        "nodeCount": 227,
+        "textureBytes": 398231207
+      },
+      "jsHeapMB": 14.666755676269531,
+      "memory": {
+        "browserPrivateMB": 1167.78125,
+        "browserWorkingSetMB": 1447.515625,
+        "rendererWorkingSetMB": 563.35546875
+      },
+      "canvas": {
+        "x": 72.65625,
+        "y": 0,
+        "width": 666.65625,
+        "height": 375
+      }
+    },
+    {
+      "timeToMenuMs": 19402,
+      "sample": {
+        "seconds": 20.291300000000003,
+        "meanFps": 3.0554966906999548,
+        "p50FrameMs": 316.59999999999854,
+        "p95FrameMs": 534,
+        "maxFrameMs": 633.4000000000015,
+        "minEnemies": 66,
+        "maxEnemies": 66
+      },
+      "engine": {
+        "drawCalls": 554,
+        "fps": 2,
+        "nodeCount": 242,
+        "textureBytes": 398625607
+      },
+      "jsHeapMB": 13.77981948852539,
+      "memory": {
+        "browserPrivateMB": 1179.91796875,
+        "browserWorkingSetMB": 1473.234375,
+        "rendererWorkingSetMB": 577.90625
+      },
+      "canvas": {
+        "x": 72.65625,
+        "y": 0,
+        "width": 666.65625,
+        "height": 375
+      }
+    }
+  ]
+}

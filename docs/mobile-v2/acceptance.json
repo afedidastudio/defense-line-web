@@ -1,0 +1,189 @@
+{
+  "base": "http://127.0.0.1:4314/",
+  "physicalPhone": false,
+  "viewport": [
+    812,
+    375
+  ],
+  "checks": [
+    "Fresh privacy shown alone; engine download waits for choice",
+    "Landscape canvas maximum 16:9; no automatic drawer",
+    "Native touch-only title → briefing → six guide pages → battle, no zoom or layer dismissal",
+    "Build and upgrade tower using native 44px+ touch targets",
+    "Hero ability, air strike and reinforcements activated by touch",
+    "Portrait full rotate screen; canvas hidden",
+    "Manual drawer closes after selection; English native guide; privacy pauses and restores battle",
+    "Declined analytics sends no Google requests"
+  ],
+  "errors": [],
+  "canvas": {
+    "x": 72.65625,
+    "y": 0,
+    "width": 666.65625,
+    "height": 375
+  },
+  "finalState": {
+    "actions": [
+      {
+        "disabled": false,
+        "id": "73752643150",
+        "label": "Pause",
+        "rect": [
+          1183,
+          10,
+          85,
+          85
+        ],
+        "unit": ""
+      },
+      {
+        "disabled": false,
+        "id": "74054633040",
+        "label": "Options",
+        "rect": [
+          1086,
+          10,
+          85,
+          85
+        ],
+        "unit": ""
+      },
+      {
+        "disabled": false,
+        "id": "77057754790",
+        "label": "Move Eitan",
+        "rect": [
+          12,
+          623,
+          85,
+          85
+        ],
+        "unit": ""
+      },
+      {
+        "disabled": true,
+        "id": "77678511807",
+        "label": "Rally",
+        "rect": [
+          109,
+          623,
+          85,
+          85
+        ],
+        "unit": ""
+      },
+      {
+        "disabled": true,
+        "id": "78920025807",
+        "label": "Air strike",
+        "rect": [
+          206,
+          623,
+          85,
+          85
+        ],
+        "unit": ""
+      },
+      {
+        "disabled": true,
+        "id": "79507228380",
+        "label": "תגבורת",
+        "rect": [
+          303,
+          623,
+          85,
+          85
+        ],
+        "unit": ""
+      },
+      {
+        "disabled": true,
+        "id": "80346089193",
+        "label": "Next wave",
+        "rect": [
+          1183,
+          623,
+          85,
+          85
+        ],
+        "unit": ""
+      },
+      {
+        "disabled": false,
+        "id": "80648079088",
+        "label": "Field guide",
+        "rect": [
+          989,
+          10,
+          85,
+          85
+        ],
+        "unit": ""
+      }
+    ],
+    "context": "",
+    "game": true,
+    "gold": 416,
+    "info": [
+      "20",
+      "416",
+      "1 / 6",
+      "LV 1",
+      "בנו בנקודות המסומנות · H גיבור · Q יכולת · E תקיפה · R תגבורת"
+    ],
+    "language": "en",
+    "lives": 20,
+    "mode": "build",
+    "panX": 0,
+    "panY": 0,
+    "panning": false,
+    "paused": false,
+    "phase": "wave",
+    "quick": [
+      {
+        "disabled": false,
+        "id": "77057754790",
+        "key": "hero",
+        "label": "Eitan · Level 1\nXP 0 / 80\nXP from nearby combat, waves and victories",
+        "remaining": 0
+      },
+      {
+        "disabled": true,
+        "id": "77678511807",
+        "key": "rally",
+        "label": "Rally [Q]\nBoosts nearby towers' damage and fire rate for 5 seconds.\nCooldown: 20.0s",
+        "remaining": 10
+      },
+      {
+        "disabled": true,
+        "id": "78920025807",
+        "key": "air",
+        "label": "Air strike [E]\nChoose an area for three impacts. Cooldown: 25.0 seconds.",
+        "remaining": 17
+      },
+      {
+        "disabled": true,
+        "id": "79507228380",
+        "key": "reinforce",
+        "label": "Reinforcements [R]\nTwo soldiers block the route for 12 seconds.",
+        "remaining": 19
+      },
+      {
+        "disabled": true,
+        "id": "80346089193",
+        "key": "wave",
+        "label": "Early wave: +0 gold · restore 0.0s",
+        "remaining": 0
+      },
+      {
+        "disabled": false,
+        "id": "73752643150",
+        "key": "pause",
+        "label": "Pause",
+        "remaining": 0
+      }
+    ],
+    "wave": 1,
+    "zoom": 1
+  }
+}

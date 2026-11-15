@@ -1,0 +1,11 @@
+{
+  "viewport": [
+    1280,
+    720
+  ],
+  "exactPixelMatch": {
+    "title": true,
+    "brief": true,
+    "game": true
+  }
+}

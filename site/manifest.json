@@ -10,8 +10,8 @@
       "sha256": "3b095e932c84fd7abe2c287ed27422e78fe9ede2d591b9cabc728c2d66955fc5"
     },
     "analytics.js": {
-      "bytes": 8243,
-      "sha256": "094e72f4335f9a6133ca4d8118c3b933b3fe197a5c2efc61d31285b6f29de654"
+      "bytes": 8774,
+      "sha256": "eec03d1c361896d18db40e45c270defbfc4e42afa1dc140ec0e2074638a424a9"
     },
     "cover.png": {
       "bytes": 2752153,
@@ -30,8 +30,8 @@
       "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
     },
     "index.html": {
-      "bytes": 9007,
-      "sha256": "94ecd5033dd73a2a44cadbe464416e9b622ad96692eea2db7163130be438ca49"
+      "bytes": 9183,
+      "sha256": "42fd53116217fadcb17c893b75facae996030e537c3788e54331b947f7322edc"
     },
     "index.icon.png": {
       "bytes": 74768,
@@ -42,8 +42,8 @@
       "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
     },
     "index.pck": {
-      "bytes": 64612416,
-      "sha256": "8a7eb233b801d330cb6bc5f9864e9f9981fc674f3159dbabca2f619ff41ad6cc"
+      "bytes": 64631384,
+      "sha256": "1cbfea2c583d0fbc7568220af1fa4d32507f8a34154261fed742fbf98c948b49"
     },
     "index.png": {
       "bytes": 21443,
@@ -54,12 +54,12 @@
       "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
     },
     "mobile.css": {
-      "bytes": 3144,
-      "sha256": "c314b5dd19e23019fedd190428900fe1fd207c3cd9db0a50f9550974f3e22dd1"
+      "bytes": 3803,
+      "sha256": "5afd1cd9c17c7ccbde6ead04601e4562f16cd722148b2dd0e9e3aef867c1c631"
     },
     "mobile.js": {
-      "bytes": 6750,
-      "sha256": "23e23752a8e67958ba8719c3ef267f8205ee0fb9c13492ebfad745963f019b36"
+      "bytes": 6514,
+      "sha256": "ce462cc128bcbee4c72a8da0ccd10e22d00fe51acf4f28b796310c293300c74a"
     },
     "packs/egypt-border.pck": {
       "bytes": 6462100,

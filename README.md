@@ -29,15 +29,17 @@ The detached Web copy passed campaign and campaign UI checks after each conversi
 
 ## Touch screens
 
-Phones and tablets get a 44px+ touch action panel, ability dock, target cancellation, map zoom and drag mode, safe-area spacing, and portrait/landscape layouts. Landscape is recommended for a larger map. Fullscreen is optional and falls back gracefully. Combat pauses when a touch-device tab is hidden and requires explicit resume. Core gameplay and the desktop UI are retained.
+Touch devices use a full-height landscape canvas with enlarged native Godot HUD, briefing, guide, build and upgrade controls (44 CSS px minimum at the tested phone size). An optional floating Actions button replaces the permanent HTML dock; it never opens automatically and closes after selections. Portrait displays a full-screen rotation request and pauses combat. Privacy appears alone before the initial engine download and is available later from Options/Actions. Fullscreen and landscape locking are attempted on a user gesture with a manual-rotation fallback. Hidden tabs remain paused until explicitly resumed.
 
-Validated using Chrome touch emulation at 390×844, 667×375, 844×390, and 1024×768, including real touch build/upgrade/sell, hero targeting, air strikes/cancellation, wave start, zoom/pan, and pause/resume. Physical Android/iOS devices and Safari have not been tested.
+The latest acceptance run uses Chrome touch emulation at 812×375 and 375×812: privacy → title → briefing → guide → combat, build/upgrade, hero ability, air support and reinforcements. The landscape canvas is 666.66×375 (maximum 16:9), compared with 552.88×311 previously. Desktop title, briefing and frozen combat screenshots at 1280×720 match the previous build pixel for pixel. Physical Android/iOS devices and Safari have not been tested. See MOBILE-V2.md for measurements and limitations.
 
 ## Optional Analytics
 
 GA4 uses the owner-supplied Web stream G-23KW675G31. Google is loaded only after explicit consent; declining does not affect the game. Use Privacy to change the choice. See [ANALYTICS.md](ANALYTICS.md) for events, privacy controls, verification and dashboard instructions.
 
 Enemy vehicle graphics now use smaller family footprints and a constant scale across all eight headings. Combat statistics are unchanged.
+
+The separate [visual redesign proposal](VISUAL-REDESIGN-HE.md) describes richer stage compositions, an illustrated HUD and a build catalog containing all unlocked units. These proposals are not part of the mobile usability change.
 
 ## Regional enemy vehicles
 
