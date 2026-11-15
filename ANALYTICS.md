@@ -48,7 +48,7 @@ Game code supplies no logins, email, saved profiles, account IDs, precise locati
 
 1. Open [Google Analytics](https://analytics.google.com/) with the account that owns this property.
 2. Select the property with Web stream **G-23KW675G31**.
-3. Use **Reports → Realtime** for incoming activity; Events/Explore for gameplay, Acquisition for traffic, user attributes for country, and Tech for devices. Returning-user reports depend on consenting browser cookies.
+3. Enhanced measurement is disabled in the Web stream (confirmed by the owner) because this integration sends page views and gameplay explicitly; this avoids unrelated automatic scroll/form events. Use **Reports → Realtime** for incoming activity; Events/Explore for gameplay, Acquisition for traffic, user attributes for country, and Tech for devices. Returning-user reports depend on consenting browser cookies.
 4. For debugging, visit `https://afedidastudio.github.io/defense-line-web/?analytics_debug=1`, accept Analytics, and inspect DebugView. Configure the property's developer-traffic filter if debug traffic should be excluded from regular reports.
 5. To filter Explore by gameplay fields, register event-scoped custom definitions for `sector_id`, `level_number`, `difficulty`, `ability`, `character`, and `level_name`/`success` if not already available. Register `active_time_sec` as a seconds metric if desired.
 

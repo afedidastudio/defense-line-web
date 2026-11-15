@@ -22,13 +22,19 @@ function send(name,values={}){if(!loaded||!granted())return false;const clean={}
 function launch(){engineReady=true;if(!launched&&granted()&&loaded){launched=true;send('game_launch')}}
 function load(){if(!granted()||loaded||loading)return;loading=true;window['ga-disable-'+id]=false;
  gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
+ const settings={send_page_view:false,allow_google_signals:false,allow_ad_personalization_signals:false,cookie_prefix:'defense',cookie_expires:15552000,cookie_path:new URL('.',location.href).pathname,cookie_flags:'SameSite=Lax;Secure',page_location:cleanURL(location.href,true),page_referrer:referrerOrigin(),...(debug?{debug_mode:true}:{})};
+ gtag('set',settings);
+ gtag('js',new Date());
+ gtag('config',id,settings);
+ gtag('consent','update',{analytics_storage:'granted',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
+ gtag('event','page_view',{page_location:cleanURL(location.href,true),page_referrer:referrerOrigin(),page_title:'Defense Line',...(debug?{debug_mode:true}:{})});
  const script=document.createElement('script');script.async=true;script.src='https://www.googletagmanager.com/gtag/js?id='+encodeURIComponent(id);
- script.onload=()=>{loading=false;if(!granted())return;loaded=true;gtag('consent','update',{analytics_storage:'granted',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});gtag('js',new Date());gtag('config',id,{send_page_view:false,allow_google_signals:false,allow_ad_personalization_signals:false,cookie_prefix:'defense',cookie_expires:15552000,cookie_path:new URL('.',location.href).pathname,cookie_flags:'SameSite=Lax;Secure',page_location:cleanURL(location.href,true),page_referrer:referrerOrigin(),...(debug?{debug_mode:true}:{})});gtag('event','page_view',{page_location:cleanURL(location.href,true),page_referrer:referrerOrigin(),page_title:'Defense Line'});if(engineReady)launch();for(const args of pending.splice(0))event(...args)};
+ script.onload=()=>{loading=false;loaded=true;if(!granted())return;if(engineReady)launch();for(const args of pending.splice(0))event(...args)};
  script.onerror=()=>{loading=false;pending.length=0};document.head.append(script);
 }
 function clearCookies(){const path=new URL('.',location.href).pathname;for(const part of document.cookie.split(';')){const name=part.split('=')[0].trim();if(!name.startsWith('defense_ga'))continue;for(const p of [path,'/'])for(const domain of ['',`; Domain=${location.hostname}`,`; Domain=.${location.hostname}`])document.cookie=`${name}=; Max-Age=0; Path=${p}${domain}; SameSite=Lax; Secure`}}
 function choose(choice){consent=choice;try{localStorage.setItem(KEY,JSON.stringify({choice,at:Date.now()}))}catch{}
- if(choice==='granted'){window['ga-disable-'+id]=false;if(loaded)gtag('consent','update',{analytics_storage:'granted',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});else load();}else{window['ga-disable-'+id]=true;clock();playing=false;activeLevel=null;pending.length=0;seen.clear();clearCookies();if(loaded)gtag('consent','update',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'})}
+ if(choice==='granted'){window['ga-disable-'+id]=false;if(loaded){gtag('consent','update',{analytics_storage:'granted',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});if(engineReady)launch()}else load();}else{window['ga-disable-'+id]=true;clock();playing=false;activeLevel=null;pending.length=0;seen.clear();clearCookies();if(loaded)gtag('consent','update',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'})}
  document.getElementById('analytics-consent')?.remove();
 }
 function openConsent(){document.getElementById('analytics-consent')?.remove();if(excluded)return;const box=document.createElement('section');box.id='analytics-consent';box.setAttribute('role','dialog');box.setAttribute('aria-labelledby','analytics-title');box.dir='rtl';box.innerHTML='<strong id="analytics-title">פרטיות · Privacy</strong><p></p><div></div>';
