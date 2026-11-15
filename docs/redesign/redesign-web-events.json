@@ -1,0 +1,107 @@
+{
+  "base": "http://127.0.0.1:4314/",
+  "events": [
+    {
+      "stage": 4,
+      "map": "illustrated-stages/painted/stage-004-event-0.png"
+    },
+    {
+      "stage": 8,
+      "map": "illustrated-stages/painted/stage-008-event-0.png"
+    },
+    {
+      "stage": 13,
+      "map": "illustrated-stages/painted/stage-013-event-0.png"
+    },
+    {
+      "stage": 14,
+      "map": "illustrated-stages/painted/stage-014-event-0.png"
+    },
+    {
+      "stage": 16,
+      "map": "illustrated-stages/painted/stage-016-event-0.png"
+    },
+    {
+      "stage": 18,
+      "map": "illustrated-stages/painted/stage-018-event-0.png"
+    },
+    {
+      "stage": 19,
+      "map": "illustrated-stages/painted/stage-019-event-0.png"
+    },
+    {
+      "stage": 24,
+      "map": "illustrated-stages/painted/stage-024-event-0.png"
+    },
+    {
+      "stage": 28,
+      "map": "illustrated-stages/painted/stage-028-event-0.png"
+    },
+    {
+      "stage": 34,
+      "map": "illustrated-stages/painted/stage-034-event-0.png"
+    },
+    {
+      "stage": 38,
+      "map": "illustrated-stages/painted/stage-038-event-0.png"
+    },
+    {
+      "stage": 44,
+      "map": "illustrated-stages/painted/stage-044-event-0.png"
+    },
+    {
+      "stage": 48,
+      "map": "illustrated-stages/painted/stage-048-event-0.png"
+    },
+    {
+      "stage": 54,
+      "map": "illustrated-stages/painted/stage-054-event-0.png"
+    },
+    {
+      "stage": 58,
+      "map": "illustrated-stages/painted/stage-058-event-0.png"
+    },
+    {
+      "stage": 64,
+      "map": "illustrated-stages/painted/stage-064-event-0.png"
+    },
+    {
+      "stage": 68,
+      "map": "illustrated-stages/painted/stage-068-event-0.png"
+    },
+    {
+      "stage": 74,
+      "map": "illustrated-stages/painted/stage-074-event-0.png"
+    },
+    {
+      "stage": 78,
+      "map": "illustrated-stages/painted/stage-078-event-0.png"
+    },
+    {
+      "stage": 84,
+      "map": "illustrated-stages/painted/stage-084-event-0.png"
+    },
+    {
+      "stage": 88,
+      "map": "illustrated-stages/painted/stage-088-event-0.png"
+    },
+    {
+      "stage": 94,
+      "map": "illustrated-stages/painted/stage-094-event-0.png"
+    },
+    {
+      "stage": 97,
+      "map": "illustrated-stages/painted/stage-097-event-0.png"
+    },
+    {
+      "stage": 98,
+      "map": "illustrated-stages/painted/stage-098-event-0.png"
+    },
+    {
+      "stage": 100,
+      "map": "illustrated-stages/painted/stage-100-event-0.png"
+    }
+  ],
+  "errors": [],
+  "status": "pass"
+}

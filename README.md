@@ -31,7 +31,7 @@ The detached Web copy passed campaign and campaign UI checks after each conversi
 
 Touch devices use a full-height landscape canvas with enlarged native Godot HUD, briefing, guide, build and upgrade controls (44 CSS px minimum at the tested phone size). An optional floating Actions button replaces the permanent HTML dock; it never opens automatically and closes after selections. Portrait displays a full-screen rotation request and pauses combat. Privacy appears alone before the initial engine download and is available later from Options/Actions. Fullscreen and landscape locking are attempted on a user gesture with a manual-rotation fallback. Hidden tabs remain paused until explicitly resumed.
 
-The latest acceptance run uses Chrome touch emulation at 812×375 and 375×812: privacy → title → briefing → guide → combat, build/upgrade, hero ability, air support and reinforcements. The landscape canvas is 666.66×375 (maximum 16:9), compared with 552.88×311 previously. Desktop title, briefing and frozen combat screenshots at 1280×720 match the previous build pixel for pixel. Physical Android/iOS devices and Safari have not been tested. See MOBILE-V2.md for measurements and limitations.
+The latest acceptance run uses Chrome touch emulation at 812×375 and 375×812: privacy → title → briefing → guide → combat, build/upgrade, hero ability, air support and reinforcements. The landscape canvas is 666.66×375 (maximum 16:9). The illustrated redesign intentionally updates desktop and phone art; the earlier pixel-identical desktop comparison applies only to the preceding mobile fix. Physical Android/iOS devices and Safari have not been tested. See [REDESIGN.md](REDESIGN.md) for current measurements and limitations; MOBILE-V2.md documents the earlier release.
 
 ## Optional Analytics
 
@@ -39,7 +39,11 @@ GA4 uses the owner-supplied Web stream G-23KW675G31. Google is loaded only after
 
 Enemy vehicle graphics now use smaller family footprints and a constant scale across all eight headings. Combat statistics are unchanged.
 
-The separate [visual redesign proposal](VISUAL-REDESIGN-HE.md) describes richer stage compositions, an illustrated HUD and a build catalog containing all unlocked units. These proposals are not part of the mobile usability change.
+## Illustrated campaign
+
+All 101 stages now have separate painted compositions, with 25 additional route-event variants. Click a build pad to select from every unit unlocked by campaign progress: category filters, illustrated cards, range preview and an explicit purchase confirmation. The catalog pauses combat; the old 4–6-unit preset no longer limits building. Existing towers use a compact upgrade/sell menu.
+
+Illustrated HUD plates, frames and native phone pages cover heroes, upgrades, achievements, unit library, campaign selection and codex in Hebrew and English. Browse the [101-map gallery](https://afedidastudio.github.io/defense-line-web/review/). See [implementation, tests and performance limitations](REDESIGN.md) and the [original design direction](VISUAL-REDESIGN-HE.md). Automated combat passed all 101 stages; this is not a human balance playtest. The severe 4× CPU-throttled mobile stress scene still runs at approximately 3–4 FPS and needs further performance work.
 
 ## Regional enemy vehicles
 

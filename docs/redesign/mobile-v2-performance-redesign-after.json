@@ -1,0 +1,160 @@
+{
+  "phase": "redesign-after",
+  "base": "http://127.0.0.1:4314/",
+  "chrome": "157.0.8103.78",
+  "cpuThrottle": 4,
+  "viewport": [
+    812,
+    375
+  ],
+  "deviceScaleFactor": 2,
+  "physicalDevice": false,
+  "normalProfile": true,
+  "scenario": "Controlled 65 initial enemies + boss, 8 tier3 towers; zero enemy movement and high HP to hold load; animations/combat active. QA only.",
+  "runs": [
+    {
+      "timeToMenuMs": 13769,
+      "sample": {
+        "seconds": 20.150599999999628,
+        "meanFps": 3.7219735392495203,
+        "p50FrameMs": 233.40000000000146,
+        "p95FrameMs": 633.3999999999942,
+        "maxFrameMs": 700.1000000000022,
+        "minEnemies": 66,
+        "maxEnemies": 66
+      },
+      "engine": {
+        "drawCalls": 436,
+        "fps": 3,
+        "nodeCount": 237,
+        "textureBytes": 392269900
+      },
+      "towerRoster": [
+        {
+          "id": "golani",
+          "level": 3,
+          "pad": 0
+        },
+        {
+          "id": "armor",
+          "level": 3,
+          "pad": 1
+        },
+        {
+          "id": "artillery",
+          "level": 3,
+          "pad": 2
+        },
+        {
+          "id": "maglan",
+          "level": 3,
+          "pad": 3
+        },
+        {
+          "id": "rockets",
+          "level": 3,
+          "pad": 4
+        },
+        {
+          "id": "medicine",
+          "level": 3,
+          "pad": 5
+        },
+        {
+          "id": "recon",
+          "level": 3,
+          "pad": 6
+        },
+        {
+          "id": "signals",
+          "level": 3,
+          "pad": 7
+        }
+      ],
+      "jsHeapMB": 18.84067153930664,
+      "memory": {
+        "browserPrivateMB": 1161.43359375,
+        "browserWorkingSetMB": 1427.26953125,
+        "rendererWorkingSetMB": 591.6875
+      },
+      "canvas": {
+        "x": 72.65625,
+        "y": 0,
+        "width": 666.65625,
+        "height": 375
+      }
+    },
+    {
+      "timeToMenuMs": 12549,
+      "sample": {
+        "seconds": 20.068699999999996,
+        "meanFps": 3.2887033041502445,
+        "p50FrameMs": 283.3000000000029,
+        "p95FrameMs": 466.59999999999854,
+        "maxFrameMs": 533.3000000000029,
+        "minEnemies": 66,
+        "maxEnemies": 66
+      },
+      "engine": {
+        "drawCalls": 422,
+        "fps": 3,
+        "nodeCount": 238,
+        "textureBytes": 391875500
+      },
+      "towerRoster": [
+        {
+          "id": "golani",
+          "level": 3,
+          "pad": 0
+        },
+        {
+          "id": "armor",
+          "level": 3,
+          "pad": 1
+        },
+        {
+          "id": "artillery",
+          "level": 3,
+          "pad": 2
+        },
+        {
+          "id": "maglan",
+          "level": 3,
+          "pad": 3
+        },
+        {
+          "id": "rockets",
+          "level": 3,
+          "pad": 4
+        },
+        {
+          "id": "medicine",
+          "level": 3,
+          "pad": 5
+        },
+        {
+          "id": "recon",
+          "level": 3,
+          "pad": 6
+        },
+        {
+          "id": "signals",
+          "level": 3,
+          "pad": 7
+        }
+      ],
+      "jsHeapMB": 13.646766662597656,
+      "memory": {
+        "browserPrivateMB": 1144.90625,
+        "browserWorkingSetMB": 1420.79296875,
+        "rendererWorkingSetMB": 585.64453125
+      },
+      "canvas": {
+        "x": 72.65625,
+        "y": 0,
+        "width": 666.65625,
+        "height": 375
+      }
+    }
+  ]
+}
