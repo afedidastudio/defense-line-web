@@ -1,0 +1,193 @@
+{
+  "base": "https://afedidastudio.github.io/defense-line-web/",
+  "physicalPhone": false,
+  "viewport": [
+    812,
+    375
+  ],
+  "checks": [
+    "Fresh privacy shown alone; engine download waits for choice",
+    "Landscape canvas maximum 16:9; no automatic drawer",
+    "Native touch-only title → briefing → six guide pages → battle, no zoom or layer dismissal",
+    "Selecting a card is free; explicit confirm purchases once and closes paused catalog",
+    "Build and upgrade tower using native 44px+ touch targets",
+    "Hero ability, air strike and reinforcements activated by touch",
+    "Portrait full rotate screen; canvas hidden",
+    "English role filters and locked-unit preview cannot buy a future family",
+    "Manual drawer closes after selection; English native guide; privacy pauses and restores battle",
+    "Declined analytics sends no Google requests",
+    "Native touch campaign sectors/stages, heroes, upgrades, achievements, all-unit library, enemy codex and illustrated intro",
+    "Fresh portrait privacy appears alone before engine download"
+  ],
+  "errors": [],
+  "canvas": {
+    "x": 72.65625,
+    "y": 0,
+    "width": 666.65625,
+    "height": 375
+  },
+  "finalState": {
+    "actions": [
+      {
+        "choice": "",
+        "confirm": false,
+        "disabled": false,
+        "filter": -1,
+        "id": "279172876800",
+        "label": "Continue campaign",
+        "rect": [
+          76,
+          202,
+          536,
+          85
+        ],
+        "unit": ""
+      },
+      {
+        "choice": "",
+        "confirm": false,
+        "disabled": false,
+        "filter": -1,
+        "id": "279223208442",
+        "label": "Campaign map",
+        "rect": [
+          672,
+          202,
+          536,
+          85
+        ],
+        "unit": ""
+      },
+      {
+        "choice": "",
+        "confirm": false,
+        "disabled": false,
+        "filter": -1,
+        "id": "279273539633",
+        "label": "Heroes",
+        "rect": [
+          76,
+          302,
+          536,
+          85
+        ],
+        "unit": ""
+      },
+      {
+        "choice": "",
+        "confirm": false,
+        "disabled": false,
+        "filter": -1,
+        "id": "279323871294",
+        "label": "Available units",
+        "rect": [
+          672,
+          302,
+          536,
+          85
+        ],
+        "unit": ""
+      },
+      {
+        "choice": "",
+        "confirm": false,
+        "disabled": false,
+        "filter": -1,
+        "id": "279374203050",
+        "label": "Campaign upgrades",
+        "rect": [
+          76,
+          402,
+          536,
+          85
+        ],
+        "unit": ""
+      },
+      {
+        "choice": "",
+        "confirm": false,
+        "disabled": false,
+        "filter": -1,
+        "id": "279424534288",
+        "label": "Enemy codex",
+        "rect": [
+          672,
+          402,
+          536,
+          85
+        ],
+        "unit": ""
+      },
+      {
+        "choice": "",
+        "confirm": false,
+        "disabled": false,
+        "filter": -1,
+        "id": "279474865452",
+        "label": "Achievements",
+        "rect": [
+          76,
+          502,
+          536,
+          85
+        ],
+        "unit": ""
+      },
+      {
+        "choice": "",
+        "confirm": false,
+        "disabled": false,
+        "filter": -1,
+        "id": "279525197271",
+        "label": "Options",
+        "rect": [
+          672,
+          502,
+          536,
+          85
+        ],
+        "unit": ""
+      },
+      {
+        "choice": "",
+        "confirm": false,
+        "disabled": false,
+        "filter": -1,
+        "id": "279575529099",
+        "label": "Introduction",
+        "rect": [
+          76,
+          614,
+          330,
+          85
+        ],
+        "unit": ""
+      },
+      {
+        "choice": "",
+        "confirm": false,
+        "disabled": false,
+        "filter": -1,
+        "id": "279625860601",
+        "label": "Fullscreen",
+        "rect": [
+          866,
+          614,
+          342,
+          85
+        ],
+        "unit": ""
+      }
+    ],
+    "context": "menu:title",
+    "game": false,
+    "info": [
+      "DEFENSE LINE",
+      "100 stages · 10 sectors · one campaign"
+    ],
+    "language": "en",
+    "mode": "build",
+    "paused": false,
+    "quick": []
+  }
+}

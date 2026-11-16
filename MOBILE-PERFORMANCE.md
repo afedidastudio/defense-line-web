@@ -55,3 +55,7 @@ The cache requests `UPDATE_ONCE` when invalidated. Godot's SubViewport getter ke
 ## Limits
 
 This is a desktop Chrome emulation measurement, not a physical-device result. Android/iOS hardware, Safari, slow mobile networks and long sessions still need device testing. Neither the average improvement nor the observed FPS is guaranteed on a phone. Existing download sizes and regional loading behavior are preserved. Privacy consent, GA4, save compatibility and the GitHub Pages workflow are unchanged.
+
+## Public release verification
+
+GitHub Pages deployment of commit 381b78c succeeded. All 255 deployed resources matched the local build byte-for-byte; twelve fresh touch/consent acceptance checks passed with no browser errors. A separate isolated 4x CPU-throttled stress run on the public site submitted 24.20 FPS, with a 107.3 ms 95th-percentile interval and 485 engine-rendered frames during the 20-second sample. This single public run confirms the final build is active; the alternating local comparison above remains the before/after assessment.
