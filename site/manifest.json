@@ -10,12 +10,16 @@
       "sha256": "3b095e932c84fd7abe2c287ed27422e78fe9ede2d591b9cabc728c2d66955fc5"
     },
     "analytics.js": {
-      "bytes": 8774,
-      "sha256": "eec03d1c361896d18db40e45c270defbfc4e42afa1dc140ec0e2074638a424a9"
+      "bytes": 8814,
+      "sha256": "ce86933a8a12a351c141196c82e5bdbaab83450cbf1a9b7ec210dfbbe7631dfe"
     },
     "cover.png": {
       "bytes": 2752153,
       "sha256": "47c811bffb78a4f5739f345984ebe59c023c0d7a858c084a77fab3b6c418f5cb"
+    },
+    "desktop-only.js": {
+      "bytes": 1894,
+      "sha256": "62aa8416368cd6c4b15c283a0a1e392a375184ec4b6a55c158ed7025bcf0d9b0"
     },
     "index.apple-touch-icon.png": {
       "bytes": 40650,
@@ -30,8 +34,8 @@
       "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
     },
     "index.html": {
-      "bytes": 9183,
-      "sha256": "20c34425d0a511516bae5623d40a2143e2f486974fde47d57dd64a38b3656fb9"
+      "bytes": 9263,
+      "sha256": "d61e8acc1d08d0adedf6ef4d7b04a245d9dbd866867d69a0f35e4fe9924d7197"
     },
     "index.icon.png": {
       "bytes": 74768,
@@ -58,8 +62,8 @@
       "sha256": "5afd1cd9c17c7ccbde6ead04601e4562f16cd722148b2dd0e9e3aef867c1c631"
     },
     "mobile.js": {
-      "bytes": 6514,
-      "sha256": "ce462cc128bcbee4c72a8da0ccd10e22d00fe51acf4f28b796310c293300c74a"
+      "bytes": 6554,
+      "sha256": "7bc05e637103f8d3b011ac6043636bc7a28b77e139724420dad760106931ff33"
     },
     "packs/egypt-border.pck": {
       "bytes": 9146868,

@@ -1,4 +1,5 @@
 (() => {
+if(window.defenseMobileBlocked)return;
 const coarse=matchMedia('(pointer:coarse)').matches;
 const enabled=coarse||(navigator.maxTouchPoints>0&&Math.min(innerWidth,innerHeight)<=600);
 const mobile=window.defenseMobile={enabled};if(!enabled)return;

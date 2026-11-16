@@ -1,0 +1,13 @@
+{
+  "base": "http://127.0.0.1:4314/",
+  "checks": [
+    "iPhone 13: desktop-only message, no engine/sector downloads or tracking; landscape remains blocked",
+    "Pixel 7: desktop-only message, no engine/sector downloads or tracking; landscape remains blocked",
+    "iPad Pro 11: desktop-only message, no engine/sector downloads or tracking; landscape remains blocked",
+    "iPad desktop-style user agent remains blocked, including QA URL",
+    "Desktop 1280px: game title loads normally",
+    "Desktop 390px: game title loads normally"
+  ],
+  "errors": [],
+  "status": "pass"
+}

@@ -4,6 +4,10 @@ Godot Web Release, without audio. This repository contains the exported static g
 
 Play: https://afedidastudio.github.io/defense-line-web/
 
+## Current availability
+
+The Web game is currently available on computer browsers only. Android phones/tablets and iPhone/iPad browsers show a Hebrew/English desktop-only message before engine or sector downloads. No analytics or consent prompt is started on blocked devices. Narrow desktop windows and touchscreen computers remain allowed. The earlier touch/performance documentation below records previous development work; it does not mean mobile Web access is currently enabled. A future native Android APK would be a separate build.
+
 ## Deployment
 
 GitHub Actions publishes `site/` to GitHub Pages on pushes to `main`.

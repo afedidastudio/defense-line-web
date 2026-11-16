@@ -1,5 +1,6 @@
 (() => {
 'use strict';
+if(window.defenseMobileBlocked)return;
 if(window.DefenseAnalytics)return;
 const config=window.DEFENSE_ANALYTICS_CONFIG||{},id=config.measurementId||'',params=new URLSearchParams(location.search);
 const excluded=['qa','probe'].some(k=>params.has(k));
