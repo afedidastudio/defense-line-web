@@ -1,6 +1,6 @@
 # Illustrated campaign release
 
-Performance follow-up: the old stress measurements below describe this historical redesign release. The subsequent [retained-drawing update](MOBILE-PERFORMANCE.md) improves the matched test from approximately 7.7 to 44.6 submitted FPS without reducing artwork or effects.
+Performance follow-up: the old stress measurements below describe this historical redesign release. The subsequent [retained-drawing and frame-selection update](MOBILE-PERFORMANCE.md) improves the final alternating test from 3.8–4.1 to 13.2–19.5 submitted FPS without reducing artwork or effects. Earlier higher numbers proved sensitive to host conditions and are retained as historical measurements.
 
 Implemented in the separate Web fork. Play: https://afedidastudio.github.io/defense-line-web/ · Map gallery: https://afedidastudio.github.io/defense-line-web/review/
 

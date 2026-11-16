@@ -1,0 +1,7 @@
+{
+  "description": "Original and cached selector rendered at multiple ages, all authored views plus left mirroring, all enemy/boss pose states and boss effects; exact RGBA comparison.",
+  "pages": 129,
+  "pixelMismatchPages": [],
+  "renderedCases": 16396,
+  "status": "pass"
+}

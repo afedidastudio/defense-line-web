@@ -1,0 +1,366 @@
+{
+  "phase": "combat-final-alternating",
+  "base": "http://127.0.0.1:4314/",
+  "chrome": "157.0.8103.78",
+  "cpuThrottle": 4,
+  "viewport": [
+    812,
+    375
+  ],
+  "deviceScaleFactor": 2,
+  "physicalDevice": false,
+  "gpu": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A7A8) Direct3D11 vs_5_0 ps_5_0, D3D11-32.0.101.7076)",
+  "scenario": "Fresh normal profile; no review upgrades. Identical 66 high-HP stationary enemies, eight tier-three towers, live combat and animations. 5s warmup, 20s sample. GL fullscreen submissions supplement browser RAF.",
+  "runs": [
+    {
+      "base": "http://127.0.0.1:4318/",
+      "timeToMenuMs": 11744,
+      "sample": {
+        "seconds": 20.175099999999905,
+        "rafFps": 3.816585791396343,
+        "submittedFps": 3.816585791396343,
+        "submittedFrames": 77,
+        "p50SubmissionMs": 248.6999999997206,
+        "p95SubmissionMs": 354.39999999990687,
+        "maxSubmissionMs": 773.5,
+        "rafP95Ms": 350,
+        "minEnemies": 66,
+        "maxEnemies": 66,
+        "engineFrameDelta": null,
+        "gameSeconds": null
+      },
+      "engine": {
+        "drawCalls": 468,
+        "fps": 4,
+        "nodeCount": 248,
+        "textureBytes": 392269900
+      },
+      "context": {
+        "visible": "visible",
+        "focused": true,
+        "canvas": [
+          1280,
+          720
+        ],
+        "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A7A8) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      "towerRoster": [
+        {
+          "id": "golani",
+          "level": 3,
+          "pad": 0
+        },
+        {
+          "id": "armor",
+          "level": 3,
+          "pad": 1
+        },
+        {
+          "id": "artillery",
+          "level": 3,
+          "pad": 2
+        },
+        {
+          "id": "maglan",
+          "level": 3,
+          "pad": 3
+        },
+        {
+          "id": "rockets",
+          "level": 3,
+          "pad": 4
+        },
+        {
+          "id": "medicine",
+          "level": 3,
+          "pad": 5
+        },
+        {
+          "id": "recon",
+          "level": 3,
+          "pad": 6
+        },
+        {
+          "id": "signals",
+          "level": 3,
+          "pad": 7
+        }
+      ],
+      "jsHeapMiB": 18.879032135009766,
+      "memory": {
+        "browserWorkingSetMiB": 1443.45703125,
+        "browserPrivateMiB": 1168.4765625,
+        "rendererWorkingSetMiB": 604.2890625
+      }
+    },
+    {
+      "base": "http://127.0.0.1:4314/",
+      "timeToMenuMs": 10504,
+      "sample": {
+        "seconds": 20.06370000000028,
+        "rafFps": 19.537772195556876,
+        "submittedFps": 19.537772195556876,
+        "submittedFrames": 392,
+        "p50SubmissionMs": 47,
+        "p95SubmissionMs": 78.89999999990687,
+        "maxSubmissionMs": 320.5,
+        "rafP95Ms": 83.40000000000146,
+        "minEnemies": 66,
+        "maxEnemies": 66,
+        "engineFrameDelta": 392,
+        "gameSeconds": 19.916666666666508
+      },
+      "engine": {
+        "actorFilterCalls": 98076,
+        "actorFilterMs": 1045.3,
+        "drawCalls": 240,
+        "fps": 21,
+        "gameClock": 24.7666666666665,
+        "nodeCount": 318,
+        "physicsFrames": 1544,
+        "physicsMs": 18.9,
+        "processMs": 21.8,
+        "renderFrames": 472,
+        "simulationMs": 1.9,
+        "textureBytes": 423634500
+      },
+      "ground": {
+        "cached": true,
+        "invalidations": 9,
+        "updateMode": 1
+      },
+      "context": {
+        "visible": "visible",
+        "focused": true,
+        "canvas": [
+          1280,
+          720
+        ],
+        "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A7A8) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      "towerRoster": [
+        {
+          "id": "golani",
+          "level": 3,
+          "pad": 0
+        },
+        {
+          "id": "armor",
+          "level": 3,
+          "pad": 1
+        },
+        {
+          "id": "artillery",
+          "level": 3,
+          "pad": 2
+        },
+        {
+          "id": "maglan",
+          "level": 3,
+          "pad": 3
+        },
+        {
+          "id": "rockets",
+          "level": 3,
+          "pad": 4
+        },
+        {
+          "id": "medicine",
+          "level": 3,
+          "pad": 5
+        },
+        {
+          "id": "recon",
+          "level": 3,
+          "pad": 6
+        },
+        {
+          "id": "signals",
+          "level": 3,
+          "pad": 7
+        }
+      ],
+      "jsHeapMiB": 15.169864654541016,
+      "memory": {
+        "browserWorkingSetMiB": 1524.16015625,
+        "browserPrivateMiB": 1244.64453125,
+        "rendererWorkingSetMiB": 628.546875
+      }
+    },
+    {
+      "base": "http://127.0.0.1:4318/",
+      "timeToMenuMs": 10443,
+      "sample": {
+        "seconds": 20.08929999999972,
+        "rafFps": 4.081774875182368,
+        "submittedFps": 4.081774875182368,
+        "submittedFrames": 82,
+        "p50SubmissionMs": 240.89999999990687,
+        "p95SubmissionMs": 298.1999999997206,
+        "maxSubmissionMs": 520.5,
+        "rafP95Ms": 300,
+        "minEnemies": 66,
+        "maxEnemies": 66,
+        "engineFrameDelta": null,
+        "gameSeconds": null
+      },
+      "engine": {
+        "drawCalls": 445,
+        "fps": 4,
+        "nodeCount": 247,
+        "textureBytes": 392467100
+      },
+      "context": {
+        "visible": "visible",
+        "focused": true,
+        "canvas": [
+          1280,
+          720
+        ],
+        "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A7A8) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      "towerRoster": [
+        {
+          "id": "golani",
+          "level": 3,
+          "pad": 0
+        },
+        {
+          "id": "armor",
+          "level": 3,
+          "pad": 1
+        },
+        {
+          "id": "artillery",
+          "level": 3,
+          "pad": 2
+        },
+        {
+          "id": "maglan",
+          "level": 3,
+          "pad": 3
+        },
+        {
+          "id": "rockets",
+          "level": 3,
+          "pad": 4
+        },
+        {
+          "id": "medicine",
+          "level": 3,
+          "pad": 5
+        },
+        {
+          "id": "recon",
+          "level": 3,
+          "pad": 6
+        },
+        {
+          "id": "signals",
+          "level": 3,
+          "pad": 7
+        }
+      ],
+      "jsHeapMiB": 18.941749572753906,
+      "memory": {
+        "browserWorkingSetMiB": 1467.4609375,
+        "browserPrivateMiB": 1188.234375,
+        "rendererWorkingSetMiB": 604.828125
+      }
+    },
+    {
+      "base": "http://127.0.0.1:4314/",
+      "timeToMenuMs": 11648,
+      "sample": {
+        "seconds": 20.062099999999816,
+        "rafFps": 13.159140867606204,
+        "submittedFps": 13.159140867606204,
+        "submittedFrames": 264,
+        "p50SubmissionMs": 49.700000000186265,
+        "p95SubmissionMs": 174.10000000009313,
+        "maxSubmissionMs": 598.2000000001863,
+        "rafP95Ms": 183.29999999999927,
+        "minEnemies": 66,
+        "maxEnemies": 66,
+        "engineFrameDelta": 264,
+        "gameSeconds": 18.01666666666664
+      },
+      "engine": {
+        "actorFilterCalls": 89628,
+        "actorFilterMs": 1222.2,
+        "drawCalls": 248,
+        "fps": 22,
+        "gameClock": 22.6333333333333,
+        "nodeCount": 313,
+        "physicsFrames": 1421,
+        "physicsMs": 17.9,
+        "processMs": 24.9,
+        "renderFrames": 332,
+        "simulationMs": 3.3,
+        "textureBytes": 423437300
+      },
+      "ground": {
+        "cached": true,
+        "invalidations": 9,
+        "updateMode": 1
+      },
+      "context": {
+        "visible": "visible",
+        "focused": true,
+        "canvas": [
+          1280,
+          720
+        ],
+        "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A7A8) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      "towerRoster": [
+        {
+          "id": "golani",
+          "level": 3,
+          "pad": 0
+        },
+        {
+          "id": "armor",
+          "level": 3,
+          "pad": 1
+        },
+        {
+          "id": "artillery",
+          "level": 3,
+          "pad": 2
+        },
+        {
+          "id": "maglan",
+          "level": 3,
+          "pad": 3
+        },
+        {
+          "id": "rockets",
+          "level": 3,
+          "pad": 4
+        },
+        {
+          "id": "medicine",
+          "level": 3,
+          "pad": 5
+        },
+        {
+          "id": "recon",
+          "level": 3,
+          "pad": 6
+        },
+        {
+          "id": "signals",
+          "level": 3,
+          "pad": 7
+        }
+      ],
+      "jsHeapMiB": 14.817161560058594,
+      "memory": {
+        "browserWorkingSetMiB": 1518.98046875,
+        "browserPrivateMiB": 1224.5625,
+        "rendererWorkingSetMiB": 583.125
+      }
+    }
+  ]
+}

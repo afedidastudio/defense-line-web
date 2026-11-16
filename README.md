@@ -47,7 +47,7 @@ Illustrated HUD plates, frames and native phone pages cover heroes, upgrades, ac
 
 ## Mobile combat performance
 
-Retaining enemy shadow geometry and caching touch build-pad decoration improves the matched 66-enemy stress scene from **7.7–7.8 to 44.5–44.7 submitted FPS**, about 5.8×, under 4× CPU slowdown in Chrome phone emulation. No art, effects, animation frames or render resolution were removed or reduced. Desktop comparison is pixel-identical; touch has minor supersampled edge differences. The high-resolution ground cache adds about 28 MiB of reported texture memory. Physical phones and Safari remain untested. See [measurements, diagnosis, screenshots and limitations](MOBILE-PERFORMANCE.md).
+Retaining enemy shadow geometry, caching touch build-pad decoration and caching immutable animation frame groups improves the final alternating 66-enemy stress test from **3.8–4.1 to 13.2–19.5 submitted FPS**, about 4.1× on average, under 4× CPU slowdown in Chrome phone emulation. Earlier runs reached 44 FPS, but host variability reproduced much lower rates on both local and public origins; the final alternating measurements are the conservative assessment. No art, effects, animation frames or render resolution were removed or reduced. Desktop comparison is pixel-identical; touch has minor supersampled edge differences. All 16,396 tested animation/effect poses match the original rendering exactly. The high-resolution ground cache adds about 30 MiB of reported texture memory. Long frames remain; physical phones and Safari remain untested. See [measurements, diagnosis, screenshots and limitations](MOBILE-PERFORMANCE.md).
 
 ## Regional enemy vehicles
 

@@ -1,0 +1,328 @@
+{
+  "phase": "combat-origin-control",
+  "base": "http://127.0.0.1:4314/",
+  "chrome": "157.0.8103.78",
+  "cpuThrottle": 4,
+  "viewport": [
+    812,
+    375
+  ],
+  "deviceScaleFactor": 2,
+  "physicalDevice": false,
+  "gpu": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A7A8) Direct3D11 vs_5_0 ps_5_0, D3D11-32.0.101.7076)",
+  "scenario": "Fresh normal profile; no review upgrades. Identical 66 high-HP stationary enemies, eight tier-three towers, live combat and animations. 5s warmup, 20s sample. GL fullscreen submissions supplement browser RAF.",
+  "runs": [
+    {
+      "base": "https://afedidastudio.github.io/defense-line-web/",
+      "timeToMenuMs": 13483,
+      "sample": {
+        "seconds": 20.033300000000047,
+        "rafFps": 7.936785252554478,
+        "submittedFps": 7.936785252554478,
+        "submittedFrames": 159,
+        "p50SubmissionMs": 127.89999999990687,
+        "p95SubmissionMs": 154.5,
+        "maxSubmissionMs": 404.19999999995343,
+        "rafP95Ms": 166.39999999999782,
+        "minEnemies": 66,
+        "maxEnemies": 66,
+        "engineFrameDelta": 159,
+        "gameSeconds": 19.30000000000001
+      },
+      "engine": {
+        "drawCalls": 244,
+        "fps": 10,
+        "gameClock": 22.75,
+        "nodeCount": 351,
+        "physicsFrames": 1450,
+        "physicsMs": 19.8,
+        "processMs": 23.9,
+        "renderFrames": 232,
+        "simulationMs": 7,
+        "textureBytes": 423437300
+      },
+      "towerRoster": [
+        {
+          "id": "golani",
+          "level": 3,
+          "pad": 0
+        },
+        {
+          "id": "armor",
+          "level": 3,
+          "pad": 1
+        },
+        {
+          "id": "artillery",
+          "level": 3,
+          "pad": 2
+        },
+        {
+          "id": "maglan",
+          "level": 3,
+          "pad": 3
+        },
+        {
+          "id": "rockets",
+          "level": 3,
+          "pad": 4
+        },
+        {
+          "id": "medicine",
+          "level": 3,
+          "pad": 5
+        },
+        {
+          "id": "recon",
+          "level": 3,
+          "pad": 6
+        },
+        {
+          "id": "signals",
+          "level": 3,
+          "pad": 7
+        }
+      ],
+      "jsHeapMiB": 14.143600463867188,
+      "memory": {
+        "browserWorkingSetMiB": 1484.3984375,
+        "browserPrivateMiB": 1200.6015625,
+        "rendererWorkingSetMiB": 563.0625
+      }
+    },
+    {
+      "base": "http://127.0.0.1:4314/",
+      "timeToMenuMs": 12281,
+      "sample": {
+        "seconds": 20.027099999999997,
+        "rafFps": 7.639648276585228,
+        "submittedFps": 7.639648276585228,
+        "submittedFrames": 153,
+        "p50SubmissionMs": 132.60000000009313,
+        "p95SubmissionMs": 162.70000000018626,
+        "maxSubmissionMs": 388.5,
+        "rafP95Ms": 166.79999999999927,
+        "minEnemies": 66,
+        "maxEnemies": 66,
+        "engineFrameDelta": 154,
+        "gameSeconds": 19.08333333333331
+      },
+      "engine": {
+        "drawCalls": 240,
+        "fps": 9,
+        "gameClock": 23.3333333333333,
+        "nodeCount": 311,
+        "physicsFrames": 1457,
+        "physicsMs": 22.6,
+        "processMs": 30.1,
+        "renderFrames": 201,
+        "simulationMs": 1.8,
+        "textureBytes": 423535900
+      },
+      "towerRoster": [
+        {
+          "id": "golani",
+          "level": 3,
+          "pad": 0
+        },
+        {
+          "id": "armor",
+          "level": 3,
+          "pad": 1
+        },
+        {
+          "id": "artillery",
+          "level": 3,
+          "pad": 2
+        },
+        {
+          "id": "maglan",
+          "level": 3,
+          "pad": 3
+        },
+        {
+          "id": "rockets",
+          "level": 3,
+          "pad": 4
+        },
+        {
+          "id": "medicine",
+          "level": 3,
+          "pad": 5
+        },
+        {
+          "id": "recon",
+          "level": 3,
+          "pad": 6
+        },
+        {
+          "id": "signals",
+          "level": 3,
+          "pad": 7
+        }
+      ],
+      "jsHeapMiB": 14.235462188720703,
+      "memory": {
+        "browserWorkingSetMiB": 1533.84375,
+        "browserPrivateMiB": 1243.38671875,
+        "rendererWorkingSetMiB": 611.04296875
+      }
+    },
+    {
+      "base": "http://127.0.0.1:4314/",
+      "timeToMenuMs": 10572,
+      "sample": {
+        "seconds": 20.116699999999817,
+        "rafFps": 7.605621200296341,
+        "submittedFps": 7.605621200296341,
+        "submittedFrames": 153,
+        "p50SubmissionMs": 127.79999999981374,
+        "p95SubmissionMs": 185.29999999981374,
+        "maxSubmissionMs": 389.3000000002794,
+        "rafP95Ms": 183.40000000000146,
+        "minEnemies": 66,
+        "maxEnemies": 66,
+        "engineFrameDelta": 153,
+        "gameSeconds": 18.69999999999998
+      },
+      "engine": {
+        "drawCalls": 241,
+        "fps": 9,
+        "gameClock": 22.8333333333333,
+        "nodeCount": 354,
+        "physicsFrames": 1429,
+        "physicsMs": 18.6,
+        "processMs": 22.9,
+        "renderFrames": 198,
+        "simulationMs": 2.5,
+        "textureBytes": 423437300
+      },
+      "towerRoster": [
+        {
+          "id": "golani",
+          "level": 3,
+          "pad": 0
+        },
+        {
+          "id": "armor",
+          "level": 3,
+          "pad": 1
+        },
+        {
+          "id": "artillery",
+          "level": 3,
+          "pad": 2
+        },
+        {
+          "id": "maglan",
+          "level": 3,
+          "pad": 3
+        },
+        {
+          "id": "rockets",
+          "level": 3,
+          "pad": 4
+        },
+        {
+          "id": "medicine",
+          "level": 3,
+          "pad": 5
+        },
+        {
+          "id": "recon",
+          "level": 3,
+          "pad": 6
+        },
+        {
+          "id": "signals",
+          "level": 3,
+          "pad": 7
+        }
+      ],
+      "jsHeapMiB": 14.175544738769531,
+      "memory": {
+        "browserWorkingSetMiB": 1542.23828125,
+        "browserPrivateMiB": 1251.234375,
+        "rendererWorkingSetMiB": 608.4765625
+      }
+    },
+    {
+      "base": "https://afedidastudio.github.io/defense-line-web/",
+      "timeToMenuMs": 13281,
+      "sample": {
+        "seconds": 20.027400000000096,
+        "rafFps": 8.03898658837389,
+        "submittedFps": 8.03898658837389,
+        "submittedFrames": 161,
+        "p50SubmissionMs": 115.5,
+        "p95SubmissionMs": 199,
+        "maxSubmissionMs": 349.79999999981374,
+        "rafP95Ms": 199.90000000000146,
+        "minEnemies": 66,
+        "maxEnemies": 66,
+        "engineFrameDelta": 160,
+        "gameSeconds": 18.383333333333407
+      },
+      "engine": {
+        "drawCalls": 233,
+        "fps": 9,
+        "gameClock": 21.9833333333334,
+        "nodeCount": 309,
+        "physicsFrames": 1405,
+        "physicsMs": 21.4,
+        "processMs": 19.2,
+        "renderFrames": 229,
+        "simulationMs": 1.6,
+        "textureBytes": 423338700
+      },
+      "towerRoster": [
+        {
+          "id": "golani",
+          "level": 3,
+          "pad": 0
+        },
+        {
+          "id": "armor",
+          "level": 3,
+          "pad": 1
+        },
+        {
+          "id": "artillery",
+          "level": 3,
+          "pad": 2
+        },
+        {
+          "id": "maglan",
+          "level": 3,
+          "pad": 3
+        },
+        {
+          "id": "rockets",
+          "level": 3,
+          "pad": 4
+        },
+        {
+          "id": "medicine",
+          "level": 3,
+          "pad": 5
+        },
+        {
+          "id": "recon",
+          "level": 3,
+          "pad": 6
+        },
+        {
+          "id": "signals",
+          "level": 3,
+          "pad": 7
+        }
+      ],
+      "jsHeapMiB": 13.142250061035156,
+      "memory": {
+        "browserWorkingSetMiB": 1487.4375,
+        "browserPrivateMiB": 1194.609375,
+        "rendererWorkingSetMiB": 561.21484375
+      }
+    }
+  ]
+}

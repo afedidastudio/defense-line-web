@@ -1,0 +1,93 @@
+{
+  "phase": "combat-optimization-public",
+  "base": "https://afedidastudio.github.io/defense-line-web/",
+  "chrome": "157.0.8103.78",
+  "cpuThrottle": 4,
+  "viewport": [
+    812,
+    375
+  ],
+  "deviceScaleFactor": 2,
+  "physicalDevice": false,
+  "gpu": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A7A8) Direct3D11 vs_5_0 ps_5_0, D3D11-32.0.101.7076)",
+  "scenario": "Fresh normal profile; no review upgrades. Identical 66 high-HP stationary enemies, eight tier-three towers, live combat and animations. 5s warmup, 20s sample. GL fullscreen submissions supplement browser RAF.",
+  "runs": [
+    {
+      "timeToMenuMs": 21551,
+      "sample": {
+        "seconds": 20.113899999999813,
+        "rafFps": 7.755830545046035,
+        "submittedFps": 7.755830545046035,
+        "submittedFrames": 156,
+        "p50SubmissionMs": 127,
+        "p95SubmissionMs": 157.79999999981374,
+        "maxSubmissionMs": 385.69999999995343,
+        "rafP95Ms": 150.3000000000029,
+        "minEnemies": 66,
+        "maxEnemies": 66,
+        "engineFrameDelta": 156,
+        "gameSeconds": 19.31666666666664
+      },
+      "engine": {
+        "drawCalls": 243,
+        "fps": 7,
+        "gameClock": 23.1833333333333,
+        "nodeCount": 313,
+        "physicsFrames": 1480,
+        "physicsMs": 25,
+        "processMs": 27.2,
+        "renderFrames": 229,
+        "simulationMs": 2.1,
+        "textureBytes": 423437300
+      },
+      "towerRoster": [
+        {
+          "id": "golani",
+          "level": 3,
+          "pad": 0
+        },
+        {
+          "id": "armor",
+          "level": 3,
+          "pad": 1
+        },
+        {
+          "id": "artillery",
+          "level": 3,
+          "pad": 2
+        },
+        {
+          "id": "maglan",
+          "level": 3,
+          "pad": 3
+        },
+        {
+          "id": "rockets",
+          "level": 3,
+          "pad": 4
+        },
+        {
+          "id": "medicine",
+          "level": 3,
+          "pad": 5
+        },
+        {
+          "id": "recon",
+          "level": 3,
+          "pad": 6
+        },
+        {
+          "id": "signals",
+          "level": 3,
+          "pad": 7
+        }
+      ],
+      "jsHeapMiB": 13.785869598388672,
+      "memory": {
+        "browserWorkingSetMiB": 1494.33984375,
+        "browserPrivateMiB": 1202.1875,
+        "rendererWorkingSetMiB": 568.2421875
+      }
+    }
+  ]
+}

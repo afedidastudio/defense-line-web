@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "Desktop cache mode and frozen vehicle scene",
+    "Touch cache mode and frozen vehicle scene",
+    "Zoom updates ground once, then stops rendering its offscreen viewport",
+    "Native touch build and sell both refresh the cached footprint",
+    "All 25 touch route events invalidate the retained ground once and render their new maps"
+  ],
+  "errors": [],
+  "status": "pass"
+}
