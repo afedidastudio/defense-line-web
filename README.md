@@ -43,7 +43,11 @@ Enemy vehicle graphics now use smaller family footprints and a constant scale ac
 
 All 101 stages now have separate painted compositions, with 25 additional route-event variants. Click a build pad to select from every unit unlocked by campaign progress: category filters, illustrated cards, range preview and an explicit purchase confirmation. The catalog pauses combat; the old 4–6-unit preset no longer limits building. Existing towers use a compact upgrade/sell menu.
 
-Illustrated HUD plates, frames and native phone pages cover heroes, upgrades, achievements, unit library, campaign selection and codex in Hebrew and English. Browse the [101-map gallery](https://afedidastudio.github.io/defense-line-web/review/). See [implementation, tests and performance limitations](REDESIGN.md) and the [original design direction](VISUAL-REDESIGN-HE.md). Automated combat passed all 101 stages; this is not a human balance playtest. The severe 4× CPU-throttled mobile stress scene still runs at approximately 3–4 FPS and needs further performance work.
+Illustrated HUD plates, frames and native phone pages cover heroes, upgrades, achievements, unit library, campaign selection and codex in Hebrew and English. Browse the [101-map gallery](https://afedidastudio.github.io/defense-line-web/review/). See [implementation and tests](REDESIGN.md) and the [original design direction](VISUAL-REDESIGN-HE.md). Automated combat passed all 101 stages; this is not a human balance playtest.
+
+## Mobile combat performance
+
+Retaining enemy shadow geometry and caching touch build-pad decoration improves the matched 66-enemy stress scene from **7.7–7.8 to 44.5–44.7 submitted FPS**, about 5.8×, under 4× CPU slowdown in Chrome phone emulation. No art, effects, animation frames or render resolution were removed or reduced. Desktop comparison is pixel-identical; touch has minor supersampled edge differences. The high-resolution ground cache adds about 28 MiB of reported texture memory. Physical phones and Safari remain untested. See [measurements, diagnosis, screenshots and limitations](MOBILE-PERFORMANCE.md).
 
 ## Regional enemy vehicles
 

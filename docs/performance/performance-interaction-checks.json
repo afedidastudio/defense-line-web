@@ -1,0 +1,9 @@
+{
+  "checks": [
+    "Touch cache mode and frozen vehicle scene",
+    "Zoom updates ground once, then stops rendering its offscreen viewport",
+    "Native touch build and sell both refresh the cached footprint"
+  ],
+  "errors": [],
+  "status": "pass"
+}

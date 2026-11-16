@@ -1,0 +1,29 @@
+{
+  "status": "pass",
+  "comparisons": [
+    {
+      "kind": "desktop",
+      "size": [
+        1280,
+        720
+      ],
+      "pixels": 921600,
+      "changed": 0,
+      "over8": 0,
+      "over32": 0,
+      "meanChannelDifference": 0.0
+    },
+    {
+      "kind": "touch",
+      "size": [
+        1624,
+        750
+      ],
+      "pixels": 1218000,
+      "changed": 29974,
+      "over8": 2701,
+      "over32": 30,
+      "meanChannelDifference": 0.05760782703886152
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "phase": "combat-optimization-after",
+  "base": "http://127.0.0.1:4314/",
+  "chrome": "157.0.8103.78",
+  "cpuThrottle": 4,
+  "viewport": [
+    812,
+    375
+  ],
+  "deviceScaleFactor": 2,
+  "physicalDevice": false,
+  "gpu": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A7A8) Direct3D11 vs_5_0 ps_5_0, D3D11-32.0.101.7076)",
+  "scenario": "Fresh normal profile; no review upgrades. Identical 66 high-HP stationary enemies, eight tier-three towers, live combat and animations. 5s warmup, 20s sample. GL fullscreen submissions supplement browser RAF.",
+  "runs": [
+    {
+      "timeToMenuMs": 10949,
+      "sample": {
+        "seconds": 20.027099999999997,
+        "rafFps": 44.73937814261676,
+        "submittedFps": 44.73937814261676,
+        "submittedFrames": 896,
+        "p50SubmissionMs": 20.600000000093132,
+        "p95SubmissionMs": 33.4000000001397,
+        "maxSubmissionMs": 102.0999999998603,
+        "rafP95Ms": 33.79999999999927,
+        "minEnemies": 66,
+        "maxEnemies": 66,
+        "engineFrameDelta": 902,
+        "gameSeconds": 20.16666666666664
+      },
+      "engine": {
+        "drawCalls": 237,
+        "fps": 48,
+        "gameClock": 22.8833333333333,
+        "nodeCount": 349,
+        "physicsFrames": 1418,
+        "physicsMs": 8.8,
+        "processMs": 16.3,
+        "renderFrames": 962,
+        "simulationMs": 1,
+        "textureBytes": 423437300
+      },
+      "towerRoster": [
+        {
+          "id": "golani",
+          "level": 3,
+          "pad": 0
+        },
+        {
+          "id": "armor",
+          "level": 3,
+          "pad": 1
+        },
+        {
+          "id": "artillery",
+          "level": 3,
+          "pad": 2
+        },
+        {
+          "id": "maglan",
+          "level": 3,
+          "pad": 3
+        },
+        {
+          "id": "rockets",
+          "level": 3,
+          "pad": 4
+        },
+        {
+          "id": "medicine",
+          "level": 3,
+          "pad": 5
+        },
+        {
+          "id": "recon",
+          "level": 3,
+          "pad": 6
+        },
+        {
+          "id": "signals",
+          "level": 3,
+          "pad": 7
+        }
+      ],
+      "jsHeapMiB": 15.168773651123047,
+      "memory": {
+        "browserWorkingSetMiB": 1474.91015625,
+        "browserPrivateMiB": 1202.3359375,
+        "rendererWorkingSetMiB": 587.54296875
+      }
+    },
+    {
+      "timeToMenuMs": 6106,
+      "sample": {
+        "seconds": 20.01480000000009,
+        "rafFps": 44.467094350180666,
+        "submittedFps": 44.467094350180666,
+        "submittedFrames": 890,
+        "p50SubmissionMs": 20.699999999953434,
+        "p95SubmissionMs": 31.5,
+        "maxSubmissionMs": 227.5,
+        "rafP95Ms": 34,
+        "minEnemies": 66,
+        "maxEnemies": 66,
+        "engineFrameDelta": 893,
+        "gameSeconds": 20.04999999999985
+      },
+      "engine": {
+        "drawCalls": 236,
+        "fps": 49,
+        "gameClock": 25.2166666666665,
+        "nodeCount": 313,
+        "physicsFrames": 1552,
+        "physicsMs": 7.2,
+        "processMs": 14.1,
+        "renderFrames": 1087,
+        "simulationMs": 0.8,
+        "textureBytes": 423634500
+      },
+      "towerRoster": [
+        {
+          "id": "golani",
+          "level": 3,
+          "pad": 0
+        },
+        {
+          "id": "armor",
+          "level": 3,
+          "pad": 1
+        },
+        {
+          "id": "artillery",
+          "level": 3,
+          "pad": 2
+        },
+        {
+          "id": "maglan",
+          "level": 3,
+          "pad": 3
+        },
+        {
+          "id": "rockets",
+          "level": 3,
+          "pad": 4
+        },
+        {
+          "id": "medicine",
+          "level": 3,
+          "pad": 5
+        },
+        {
+          "id": "recon",
+          "level": 3,
+          "pad": 6
+        },
+        {
+          "id": "signals",
+          "level": 3,
+          "pad": 7
+        }
+      ],
+      "jsHeapMiB": 15.186981201171875,
+      "memory": {
+        "browserWorkingSetMiB": 1531.890625,
+        "browserPrivateMiB": 1251.39453125,
+        "rendererWorkingSetMiB": 626.57421875
+      }
+    }
+  ]
+}
