@@ -1,0 +1,89 @@
+{
+  "tool": "Built-in image_gen",
+  "approvedStyle": "exec-d4376359-9346-4ce0-9443-35972f53ac9b.png",
+  "commonPrompt": "Generate ONE transparent PNG environment sprite sheet, exactly 12 isolated assets arranged strict equal 4 columns x 3 rows, reading order left to right top to bottom. Center each object in its own equal cell with generous transparent margins (at least 10% all sides), never overlap cell boundaries. No labels, no grid lines, no ground plate, no backdrop, no people, no units, no flags or insignia. REQUIRED ART STYLE exactly the supplied reference: bold dark brown outlines, flat cel shading in 2-3 tones, chunky simple shapes, restrained texture, hand drawn cartoon tower defense game assets. Matching high downward orthographic three-quarter camera for all objects. Clear at small gameplay size. Region: REGION. Twelve assets in reading order: ASSETS. Climate and local architecture must match this region. Buildings are scenery, not fantasy towers. Transparent background.",
+  "sectors": [
+    [
+      "south-syria",
+      "South Syria",
+      "Earth-covered aircraft shelter; flat-roof houses; mosque; damaged apartment; water tower; ruined basalt farmhouse; basalt cliffs; olive grove; basalt wall; dry field; workshop; boulders"
+    ],
+    [
+      "syrian-hermon",
+      "SYRIAN HERMON snowy mountain frontier",
+      "snow-covered concrete observation post; ruined alpine stone hamlet; steel radio mast and small snowbound generator cabin; limestone escarpment with snow shelves; concrete mountain shelter half buried in snow; snow-covered pine tree grove; jagged ice-blue boulders; windblown sparse alpine shrubs; broken snow-covered dry-stone wall; ski-lift pylon and disused maintenance hut; frozen water tank and pipes; rocky snowdrift cluster"
+    ],
+    [
+      "south-lebanon",
+      "SOUTHERN LEBANON olive terraces and limestone villages",
+      "terraced limestone village of flat roof houses; old olive oil press courtyard with large stone wheel; damaged village apartment building; pale mosque with small dome and short minaret; broad mature olive grove of three trees; layered limestone escarpment and terrace wall; rural water tower and pump house; stone farmhouse with partially collapsed roof; long dry-stone terrace retaining wall; cultivated vegetable field and irrigation trough; roadside repair workshop and rusty metal gate; limestone boulders with wild shrubs"
+    ],
+    [
+      "west-bank",
+      "WEST BANK hill country terraced towns",
+      "dense cluster of flat-roof pale limestone houses with black rooftop water tanks; terraced hillside stone farmhouse; old arched market courtyard; small pale mosque with muted green dome and minaret; olive grove on low stone terrace; stepped chalky limestone cliff; tall utilitarian water tower and pump cabin; partially damaged concrete house and rubble; broken limestone retaining wall; dry grain field and old tractor shed without tractor; roadside workshop with roller shutter and barrels; limestone boulders with thorn bushes"
+    ],
+    [
+      "gaza",
+      "GAZA devastated coastal urban landscape, based on contemporary documentary rubble and exposed reinforced concrete, environmental depiction only",
+      "large collapsed concrete apartment block with pancaked floors and exposed rebar; compact cluster of damaged flat-roof urban houses with rooftop tanks and satellite dishes; small damaged mosque with cracked pale dome and broken short minaret; tall skeletal apartment shell with missing facades and floor slabs; damaged cylindrical water tower with pipes and utility cabin; rubble-filled old market courtyard with broken shop fronts; low coastal sandy embankment with scattered shattered concrete; sparse dusty palm trees with broken low wall; long broken reinforced concrete wall with rebar ends; small destroyed greenhouse with bent metal ribs; shuttered workshop with collapsed corrugated roof and rusty barrels; large mixed concrete rubble pile with a little dry grass"
+    ],
+    [
+      "egypt-border",
+      "SINAI EGYPT BORDER sandy desert and rocky frontier",
+      "low desert concrete border outpost with steel observation mast; small Bedouin adobe courtyard settlement; half buried old concrete shelter with dark entrance; layered warm sandstone cliff; rusty elevated cylindrical water tank and utility shed; ruined desert stone rest house; weathered sandstone rock arch outcrop; sparse acacia tree and desert scrub; broken low adobe wall and old fence posts; date palm oasis cluster with small stone well; corrugated metal roadside depot and barrels; rounded desert boulders with dry grass"
+    ],
+    [
+      "jordan-border",
+      "JORDAN BORDER Wadi Araba rocky desert and cultivated valley",
+      "warm sandstone village courtyard of flat-roof houses; desert pumping station and tall water tank; old stone watch post without weapons; stepped red sandstone escarpment; arched irrigation reservoir and small pump hut; abandoned adobe farmhouse with collapsed walls; large red sandstone outcrop; sparse acacia grove with dry shrubs; low broken sandstone retaining wall; small irrigated date palm farm and water trough; rusted corrugated farm depot with crates; reddish desert boulders and thorn bushes"
+    ],
+    [
+      "iran-zagros",
+      "IRAN ZAGROS rugged limestone mountains and stepped villages",
+      "stepped mountain village with flat roofs and stone stairs; old arched stone caravanserai courtyard; damaged concrete mountain utility station; large layered grey beige limestone escarpment; tall rusty water tank and hillside pump shed; ruined stone mountain farmhouse; rugged mountain rock outcrop with ledges; sparse broad-crowned Persian oak grove; broken stone terrace wall; small hillside field and stone granary; corrugated roadside mountain workshop and fuel drums; jagged limestone boulders with dry grass"
+    ],
+    [
+      "iran-desert",
+      "IRAN CENTRAL PLATEAU salt desert and adobe settlements",
+      "adobe village with tall traditional windcatcher tower; old mudbrick caravanserai with arched entrance; abandoned low concrete utility station; layered rose brown desert escarpment; domed underground cistern entrance with low adobe walls; ruined adobe farmhouse and broken arch; pale angular salt crust outcrop; sparse tamarisk grove and dry shrubs; broken mudbrick courtyard wall; compact date palm garden with irrigation well; corrugated desert workshop with old drums and crates; cracked salt rocks with sparse thorn bushes"
+    ],
+    [
+      "iran-caspian",
+      "IRAN CASPIAN ALBORZ foothills lush temperate Hyrcanian forest",
+      "compact rural houses with pitched corrugated roofs and wooden porches; old forest watermill and mossy stone channel; weathered concrete forest utility station; large mossy grey rock escarpment; water tower and timber pump cabin; ruined stone woodland farmhouse; moss-covered boulder outcrop with ferns; dense broadleaf beech and oak tree grove; broken mossy stone retaining wall; small lush rice field terrace and farm hut; timber roadside workshop with corrugated roof and stacked logs; fern-covered rocks and low green shrubs"
+    ],
+    [
+      "yemen",
+      "YEMEN dry highland terraced towns and distinctive tall tower houses",
+      "cluster of tall brown Yemeni tower houses with white geometric window trim; old stone mountain courtyard with arched doorway; damaged concrete hilltop utility station; layered tan mountain escarpment; highland water cistern and tall rusty tank; ruined Yemeni stone tower house with rubble; angular volcanic highland rock outcrop; sparse acacia and terraced shrubs; broken dry-stone terrace wall; small dry terrace field with stone granary; roadside corrugated workshop and barrels; dark basalt boulders and dry golden grass"
+    ]
+  ],
+  "references": [
+    {
+      "region": "gaza",
+      "url": "https://www.arabnews.com/middle-east/army-chief-says-israel-must-draw-lessons-from-oct-7-failures-3004629",
+      "note": "Reuters photograph dated 2026-09-28; architecture and rubble only."
+    },
+    {
+      "region": "south-syria",
+      "url": "https://sana.sy/en/syria/2321649/"
+    },
+    {
+      "region": "south-lebanon",
+      "url": "https://janoubia.com/2017/12/13/تعرّفوا-على-أكبر-5-قرى-في-جنوب-لبنان‎/"
+    },
+    {
+      "region": "yemen",
+      "url": "https://commons.wikimedia.org/wiki/File:Hajarah,_Haraz_Mountains,_Yemen_(4325367234).jpg"
+    },
+    {
+      "region": "iran-caspian",
+      "url": "https://www.iranicaonline.org/articles/alborz-geography/"
+    },
+    {
+      "region": "iran",
+      "url": "https://islamic-art.smb.museum/en/story/photo-archive-eugen-wirth"
+    }
+  ]
+}

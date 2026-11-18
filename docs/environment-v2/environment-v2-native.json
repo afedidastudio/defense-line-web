@@ -1,0 +1,38 @@
+{
+  "status": "pass",
+  "seconds": 77.41,
+  "checks": [
+    {
+      "test": "--campaign-test",
+      "seconds": 5.84,
+      "report": {
+        "checks": 4119,
+        "failures": [],
+        "status": "pass",
+        "wallSeconds": 5.028,
+        "wins": 0
+      }
+    },
+    {
+      "test": "--campaign-ui-test",
+      "seconds": 6.31,
+      "report": {
+        "checks": 320,
+        "failures": [],
+        "scope": "Native layouts in Hebrew/English, all regional codices and loadout pages, unlocks and connected upgrade action",
+        "status": "pass"
+      }
+    },
+    {
+      "test": "--validate-redesign",
+      "seconds": 22.53,
+      "report": {
+        "checks": 10133,
+        "failures": [],
+        "families": 30,
+        "maps": 101,
+        "status": "pass"
+      }
+    }
+  ]
+}

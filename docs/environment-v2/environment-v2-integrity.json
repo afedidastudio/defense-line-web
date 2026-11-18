@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "stages": 101,
+  "eventVariants": 25,
+  "uniqueMaps": 126,
+  "sourceCampaignSha256": "8446521db39c63e42cc738c79dd375706b18b9e40af4486148d49932f9c5196b",
+  "campaignDataByteIdentical": true,
+  "sceneryObjects": 3748,
+  "roadSegmentClearanceChecks": 167950,
+  "towerClearanceChecks": 36942,
+  "roadIntersections": 0,
+  "towerIntersections": 0,
+  "resolution": [
+    1280,
+    720
+  ]
+}

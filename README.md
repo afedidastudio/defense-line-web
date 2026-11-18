@@ -4,6 +4,10 @@ Godot Web Release, without audio. This repository contains the exported static g
 
 Play: https://afedidastudio.github.io/defense-line-web/
 
+## Regional battlefield refresh
+
+All 101 stages and 25 route-event variants now use the approved outlined cartoon environment style, with region-specific architecture, vegetation, terrain and distinct focal compositions. Original paths and tower locations are preserved. Browse the [updated map gallery](https://afedidastudio.github.io/defense-line-web/review/) or see [implementation and validation](ENVIRONMENT-V2.md).
+
 ## Current availability
 
 The Web game is currently available on computer browsers only. Android phones/tablets and iPhone/iPad browsers show a Hebrew/English desktop-only message before engine or sector downloads. No analytics or consent prompt is started on blocked devices. Narrow desktop windows and touchscreen computers remain allowed. The earlier touch/performance documentation below records previous development work; it does not mean mobile Web access is currently enabled. A future native Android APK would be a separate build.

@@ -1,0 +1,13 @@
+# Regional battlefield environments
+
+The 101 campaign maps and all 25 route-event variants now use the approved outlined, cel-shaded cartoon environment direction. Eleven regional asset sheets were generated with the built-in image generation tool. Every stage has its own deterministic composition and focal subjects: basalt shelters and villages, snowy observation stations, olive terraces, limestone towns, damaged Gaza neighborhoods, Sinai sandstone, Jordanian irrigation and desert villages, Zagros mountains, central Iranian adobe and salt formations, Caspian woodland, and Yemeni tower houses.
+
+The approved concept is a style reference. Production maps are composed around the actual campaign geometry rather than using generated images to approximate paths. The original campaign JSON is byte-identical to the pre-change snapshot (SHA-256 `8446521db39c63e42cc738c79dd375706b18b9e40af4486148d49932f9c5196b`). This retains tower coordinates, routes, road widths, rivers, terrain polygons, entry/objective locations, events, waves and combat values. The road appearance has warmer illustrated colors; the original road renderer and centerlines are retained.
+
+Scenery rectangles are kept outside tower areas (130 × 128 around each authored slot, extending 82 pixels above the anchor) and outside every initial and event route, including the road shoulders. River corridors are protected as well. An independent Python geometry audit checks every scenery rectangle against every relevant path segment and tower footprint. All output maps remain 1280 × 720 and are baked into static textures; no extra scenery nodes or per-frame scenery drawing are added to gameplay.
+
+`environment-v2-integrity.json` records the geometry and asset audit. `environment-v2-native.json` records campaign, campaign UI and redesign checks. `environment-v2-browser.json` and `environment-v2-events.json` record actual browser loading and interaction checks. Contact sheets cover all 101 initial maps; screenshots also sample gameplay from each region. These checks do not constitute a full human balance playthrough.
+
+The review gallery includes all maps and event variants. Existing save behavior and versioned sector-pack caching are retained. Every changed pack receives a new SHA-256 cache revision so returning clients fetch the new art without deleting progress.
+
+`environment-v2-art-direction.json` records the image-generation prompts and real-world reference sources. These are environmental interpretations rather than claims that a fictional map reproduces a specific real location. Documentary images informed local architecture and landforms; no photographs were embedded as game backgrounds.
